@@ -26,7 +26,8 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - run: npm run build          # lỗi bản dịch sẽ làm bước này đỏ, không deploy
+      - run: npx playwright install --with-deps chromium
+      - run: npm test               # build + unit + e2e; test đỏ thì không deploy, giữ bản cũ
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
