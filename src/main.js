@@ -8,17 +8,23 @@
  *   - Mỗi lần vẽ chữ game đều tra lại bảng này, nên thay xong là thấy ngay.
  *   - Một số màn hình trên điện thoại vẽ nút bằng HTML: phần translateDom() lo việc này.
  *
- * Cách nạp: file này là ES module, được gọi bằng
- *   import('https://cdn.jsdelivr.net/gh/<user>/aoe-vi@master/main.js')
+ * Hai cách chạy:
+ *   - Bản phát triển: import('.../src/main.js')  -> tải từng file lang/vi/*.json
+ *   - Bản build:      import('.../dist/aoe-vi.min.js') -> bản dịch được nhúng sẵn,
+ *     thu gọn và minify bởi `npm run build` (xem scripts/build.mjs)
  * Gọi lần nữa khi đã nạp thì chỉ bật/tắt tiếng Việt (xem window.__aoeVI.toggle()).
  */
+
+/* global __AOE_VI_DATA__ */
+
+import { hashText } from './hash.js';
 
 // ---------------------------------------------------------------------------
 // Cấu hình
 // ---------------------------------------------------------------------------
 
-/** Thư mục chứa bản dịch, tính theo vị trí của chính file này. */
-const LANG_DIR = new URL('./lang/vi/', import.meta.url);
+/** Thư mục chứa bản dịch (chỉ dùng ở bản phát triển), tính theo vị trí file này. */
+const LANG_DIR = new URL('../lang/vi/', import.meta.url);
 
 /** Phím tắt bật/tắt: Alt + L */
 const TOGGLE_KEY = 'KeyL';
@@ -59,11 +65,20 @@ const domMap = new Map();      // tiếng Anh -> tiếng Việt, dùng cho chữ
 const domOrig = new WeakMap(); // text node -> chữ tiếng Anh gốc
 
 // ---------------------------------------------------------------------------
-// 1. Nạp bản dịch: lang/vi/index.json liệt kê các file, mỗi file dạng
-//    { "<ID>": ["English", "Tiếng Việt"], ... }
+// 1. Nạp bản dịch
+//    Bản phát triển: lang/vi/index.json liệt kê các file, mỗi file dạng
+//      { "<ID>": ["English", "Tiếng Việt"], ... }
+//    Bản build: __AOE_VI_DATA__ = { "<ID>": ["<hash câu tiếng Anh>", "Tiếng Việt"] }
+//      (lưu hash thay cho cả câu tiếng Anh để file nhỏ hơn mà vẫn kiểm tra được)
 // ---------------------------------------------------------------------------
 
+const BUNDLED = typeof __AOE_VI_DATA__ !== 'undefined' ? __AOE_VI_DATA__ : null;
+
+/** So câu tiếng Anh hiện tại của game với câu (hoặc hash) lưu trong bản dịch. */
+const sameSource = (current, stored) => (BUNDLED ? hashText(current) === stored : current === stored);
+
 async function loadTranslations() {
+  if (BUNDLED) return BUNDLED;
   const index = await fetch(new URL('index.json', LANG_DIR)).then((r) => r.json());
   const parts = await Promise.all(
     index.files.map((f) =>
@@ -90,15 +105,15 @@ function buildEnToVi(lang, translations) {
     for (const [id, [en, vi]] of Object.entries(translations)) {
       const current = tbl[id];
       if (typeof current !== 'string' || enToVi.has(current)) continue;
-      if (current !== en) {
-        console.warn(`[AoE-VI] ID ${id}: chữ gốc đã đổi, bỏ qua bản dịch`, { file: en, game: current });
+      if (!sameSource(current, en)) {
+        console.warn(`[AoE-VI] ID ${id}: chữ gốc đã đổi, bỏ qua bản dịch`, { game: current, vi });
         continue;
       }
-      if (formatSpecs(en) !== formatSpecs(vi)) {
-        console.warn(`[AoE-VI] ID ${id}: bản dịch lệch %s/%d, bỏ qua`, { en, vi });
+      if (formatSpecs(current) !== formatSpecs(vi)) {
+        console.warn(`[AoE-VI] ID ${id}: bản dịch lệch %s/%d, bỏ qua`, { en: current, vi });
         continue;
       }
-      enToVi.set(en, vi);
+      enToVi.set(current, vi);
     }
   }
   return enToVi;

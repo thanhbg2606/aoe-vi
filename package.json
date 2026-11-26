@@ -1,0 +1,12 @@
+{
+  "name": "aoe-vi",
+  "private": true,
+  "type": "module",
+  "description": "Việt hóa Age of Empires (1997) trên vivalarts.com",
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}
