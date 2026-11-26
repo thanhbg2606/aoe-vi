@@ -8,5 +8,15 @@
     "technologies.json",
     "menus.json",
     "tooltips.json"
+  ],
+  "campaigns": [
+    "campaigns/ascent_1.json",
+    "campaigns/gloryo_1.json",
+    "campaigns/voices_1.json",
+    "campaigns/yamato_1.json",
+    "campaigns/expans_1.json",
+    "campaigns/expans_2.json",
+    "campaigns/expans_3.json",
+    "campaigns/expans_4.json"
   ]
 }

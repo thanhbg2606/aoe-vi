@@ -1,0 +1,117 @@
+{
+  "file": "EXPANS_4.CPX",
+  "name": [
+    "Expansion Enemies of Rome",
+    "Mở rộng 4: Kẻ thù của La Mã"
+  ],
+  "scenarios": [
+    {
+      "file": "Crossing the Alps.scx",
+      "name": [
+        "Crossing the Alps",
+        "Vượt dãy Alps"
+      ],
+      "description": [
+        "Crossing the Alps, 218 BC\n\nScenario Instructions\n\nYour plan to march into Italy through the Alps is brilliant but fraught with risk. There are dangerous tribes in the mountains and Roman garrisons in the foothills at the base of the Alps. It is likely that the Gauls in northern Italy will rally to your cause if you can break through. Scouts marked the pass through the mountains, but were then taken prisoner. If you can locate and free them, they might be of great use in your effort to break through.\n\nObjective\n\n - Get both Armored Elephants and Hannibal past the double flags in the lower corner of the map.",
+        "Vượt dãy Alps, 218 TCN\n\nHướng dẫn màn chơi\n\nKế hoạch tiến vào Ý qua dãy Alps của bạn rất xuất sắc nhưng đầy rủi ro. Trên núi có những bộ tộc nguy hiểm và dưới chân dãy Alps có các đồn binh La Mã. Nhiều khả năng người Gaul ở miền bắc nước Ý sẽ theo bạn nếu bạn chọc thủng được phòng tuyến. Các trinh sát đã đánh dấu đường đèo qua núi nhưng sau đó bị bắt làm tù binh. Nếu tìm và giải cứu được họ, họ có thể giúp ích rất nhiều cho việc phá vây của bạn.\n\nMục tiêu\n\n- Đưa cả hai Voi bọc giáp và Hannibal vượt qua cặp cờ ở góc dưới bản đồ."
+      ],
+      "hints": [
+        "-  The Romans have gotten advance word of your arrival and have started preparing for battle. Move quickly to lessen their preparation time.\n-  Use waypoints to guide your troops through the narrow valleys.  To use waypoints, click a unit, press SHIFT, right-click each point along the path, release the SHIFT key, and then right-click the last point in the path.",
+        "- Người La Mã đã nhận được tin bạn sắp đến và bắt đầu chuẩn bị chiến đấu. Hãy di chuyển nhanh để rút ngắn thời gian chuẩn bị của họ.\n- Dùng điểm dẫn đường để đưa quân qua các thung lũng hẹp. Cách dùng: bấm chọn một đơn vị, giữ phím SHIFT, chuột phải lần lượt vào từng điểm trên đường đi, thả phím SHIFT rồi chuột phải vào điểm cuối cùng."
+      ],
+      "win": [
+        "Your crossing of the Alps was a masterstroke that has amazed the world. All Carthage applauds you and your army. The Romans now feel the revenge of Carthage. We will once more be masters of the Mediterranean.",
+        "Việc bạn vượt dãy Alps là một nước cờ thiên tài khiến cả thế giới kinh ngạc. Toàn thể Carthage hoan nghênh bạn và quân đội của bạn. Giờ thì người La Mã đã nếm mùi báo thù của Carthage. Chúng ta sẽ một lần nữa làm chủ Địa Trung Hải."
+      ],
+      "loss": [
+        "Your failure in the Alps has doomed the efforts of Carthage in this second war with Rome. They control the seas already. Taking the war into Italy was our great hope for keeping them off-balance. Now our colonies in Spain are under attack because so many of our troops from there were lost with you. It is only a matter of time before a great Roman army lands in North Africa itself. You were a fool to think elephants could cross the Alps.",
+        "Thất bại của bạn ở dãy Alps đã định đoạt số phận các nỗ lực của Carthage trong cuộc chiến thứ hai với La Mã. Họ vốn đã kiểm soát biển cả. Đưa chiến tranh vào Ý là hy vọng lớn của chúng ta để khiến họ mất thế cân bằng. Giờ các thuộc địa của ta ở Tây Ban Nha đang bị tấn công vì quá nhiều quân từ đó đã bỏ mạng cùng bạn. Chỉ còn là vấn đề thời gian trước khi một đại quân La Mã đổ bộ lên chính Bắc Phi. Bạn thật ngốc khi nghĩ voi có thể vượt dãy Alps."
+      ],
+      "history": [
+        "In 219 BC the Second Punic War between Rome and Carthage was instigated in Spain, where Hannibal of Carthage invaded the Greek city of Sarguntum (an ally of Rome). The Romans demanded that Carthage lift the siege and surrender Hannibal. Carthage refused and Rome declared war. Hannibal took the city by storm after an eight-month siege. He then advanced north into Gaul with an army of 50,000 infantry, 9,000 cavalry, and 80 elephants.\n\nCatching Rome by surprise, Hannibal led his army across Gaul, up the Rhone River Valley, into modern Switzerland, across the Alps in October, and down into the Po River Valley. Due to harsh winter conditions in the mountains and resistance from mountain tribes, he arrived in Italy with only 20,000 infantry, 6,000 cavalry, and a few elephants.\n\nWhile Rome hurried troops north, Hannibal recruited Gauls. He met the Romans in three major battles at Trebia (218 BC), Lake Trasimene (217 BC), and Cannae (216 BC). All were resounding Carthaginian victories leaving approximately 120,000 Romans dead. The Romans were forced to avoid open battle for several years while a new generation of soldiers grew old enough for duty. But Hannibal lacked the strength to take Rome itself. For 14 more years he devastated the countryside and tried to convince the other cities of Italy to drop their allegiance to Rome.\n\nDefeats in Spain and a Roman invasion of North Africa finally forced Hannibal to return home. With a largely untrained army, he met Scipio's veterans at the battle of Zama in 202 BC. The Roman victory brought an end to the Second Punic War and to Carthage's empire.",
+        "Năm 219 TCN, Chiến tranh Punic lần thứ hai giữa La Mã và Carthage bùng nổ ở Tây Ban Nha, khi Hannibal của Carthage tấn công thành phố Hy Lạp Saguntum (đồng minh của La Mã). Người La Mã đòi Carthage giải vây và giao nộp Hannibal. Carthage từ chối và La Mã tuyên chiến. Hannibal chiếm thành bằng một trận tấn công sau tám tháng vây hãm. Sau đó ông tiến lên phía bắc vào Gaul với đạo quân gồm 50.000 bộ binh, 9.000 kỵ binh và 80 con voi.\n\nĐánh úp La Mã bất ngờ, Hannibal dẫn quân băng qua Gaul, ngược thung lũng sông Rhone, vào vùng Thụy Sĩ ngày nay, vượt dãy Alps vào tháng Mười rồi xuống thung lũng sông Po. Do mùa đông khắc nghiệt trên núi và sự kháng cự của các bộ tộc miền núi, ông đến Ý chỉ còn 20.000 bộ binh, 6.000 kỵ binh và vài con voi.\n\nTrong khi La Mã vội vã điều quân lên phía bắc, Hannibal chiêu mộ người Gaul. Ông đánh với người La Mã ba trận lớn ở Trebia (218 TCN), hồ Trasimene (217 TCN) và Cannae (216 TCN). Cả ba đều là những chiến thắng vang dội của Carthage, khiến khoảng 120.000 người La Mã thiệt mạng. Người La Mã buộc phải tránh giao chiến trực diện trong nhiều năm, chờ một thế hệ lính mới đủ tuổi nhập ngũ. Nhưng Hannibal không đủ sức chiếm chính La Mã. Suốt 14 năm nữa, ông tàn phá vùng nông thôn và tìm cách thuyết phục các thành phố khác của Ý từ bỏ La Mã.\n\nNhững thất bại ở Tây Ban Nha và cuộc xâm lược Bắc Phi của La Mã cuối cùng buộc Hannibal phải về nước. Với một đạo quân phần lớn chưa được huấn luyện, ông đối đầu các cựu binh của Scipio trong trận Zama năm 202 TCN. Chiến thắng của La Mã chấm dứt Chiến tranh Punic lần thứ hai và đế chế Carthage."
+      ]
+    },
+    {
+      "file": "Third Greek War.scx",
+      "name": [
+        "Third Greek War",
+        "Chiến tranh Hy Lạp lần ba"
+      ],
+      "description": [
+        "Third Greek War, 172 BC\n\nScenario Instructions\n\nOur attempt to conquer Pergamum has been complicated by the Romans. They have sent two armies to interfere on the side of our enemies. Thus the war has widened. A victory against these forces would not only give us control of the Bosphorus, but also revenge for earlier defeats by Rome that we cannot forget. Defeat these Roman interlopers and then destroy Pergamum.\n\nObjective\n\n- Destroy the Government Center in Pergamum (red).",
+        "Chiến tranh Hy Lạp lần ba, 172 TCN\n\nHướng dẫn màn chơi\n\nNỗ lực chinh phục Pergamum của chúng ta đã bị người La Mã làm cho rắc rối. Họ đã phái hai đạo quân đến can thiệp, đứng về phía kẻ thù của ta. Vì thế cuộc chiến đã lan rộng. Một chiến thắng trước các lực lượng này không chỉ giúp ta kiểm soát eo biển Bosphorus mà còn rửa mối hận những lần thua La Mã trước đây mà ta không thể quên. Hãy đánh bại những kẻ La Mã xen vào chuyện người khác rồi tiêu diệt Pergamum.\n\nMục tiêu\n\n- Phá hủy Trung tâm chính quyền ở Pergamum (đỏ)."
+      ],
+      "hints": [
+        "- A two-fronted attack is necessary to obtain your goal.\n- Find as many weak spots in the Roman defenses as possible, and exploit them to their fullest.",
+        "- Cần tấn công trên hai mặt trận để đạt mục tiêu.\n- Tìm càng nhiều điểm yếu trong phòng tuyến La Mã càng tốt và khai thác triệt để."
+      ],
+      "win": [
+        "Your great victory over Pergamum and its Roman allies has brought renewed glory to the Hellenic League. All of Greece salutes you. We now control the key waterway between the Black Sea and the Aegean Sea, and will grow rich on the trade. The Romans fear us now. It is unlikely that they will meddle in our affairs again.",
+        "Chiến thắng vĩ đại của bạn trước Pergamum và đồng minh La Mã của họ đã đem lại vinh quang mới cho Liên minh Hellenic. Cả Hy Lạp nghiêng mình chào bạn. Giờ chúng ta kiểm soát tuyến đường thủy then chốt giữa Biển Đen và biển Aegean, và sẽ giàu lên nhờ buôn bán. Người La Mã giờ e sợ chúng ta. Khó có khả năng họ lại can thiệp vào chuyện của ta nữa."
+      ],
+      "loss": [
+        "Despite some early successes against the weak Roman interlopers, you have failed to take Pergamum. Our dreams of controlling the important waterway between the Black Sea and Aegean Sea have been foiled by your incompetence. The Romans are sending more aid. The Hellenic League is now likely to become Roman provinces.",
+        "Dù có vài thắng lợi ban đầu trước những kẻ La Mã yếu ớt xen vào, bạn đã không chiếm được Pergamum. Giấc mơ kiểm soát tuyến đường thủy quan trọng giữa Biển Đen và biển Aegean đã tan tành vì sự bất tài của bạn. Người La Mã đang gửi thêm viện trợ. Liên minh Hellenic giờ nhiều khả năng sẽ trở thành các tỉnh của La Mã."
+      ],
+      "history": [
+        "Conflict between Pergamum (modern Turkey) and Macedonia (northern Greece) attracted Roman interference against the Greeks. Perseus of Macedonia enjoyed early success, defeating two Roman armies sent against him. Another Roman army was sent to Greece in 168 BC. Under the leadership of Aemilius, the Roman army engaged the Macedonians at Pydna. During the battle the Romans fell back under the onslaught of the phalanx in open terrain, but when the terrain changed to more rolling ground, the legionaries were able to counterattack and take advantage of gaps in the Greek formation. Once the Romans penetrated the phalanx, it dissolved. 20,000 Macedonians died and 11,000 were captured, versus only 1,000 Romans dead.\n\nThe Hellenic League was ended and the various parts became separate republics under a Roman protectorate. No longer needing an ally in the region, the Romans cut back the power of Pergamum and made Anatolia a protectorate also.",
+        "Xung đột giữa Pergamum (Thổ Nhĩ Kỳ ngày nay) và Macedonia (miền bắc Hy Lạp) đã kéo La Mã vào can thiệp chống lại người Hy Lạp. Perseus của Macedonia có những thắng lợi ban đầu, đánh bại hai đạo quân La Mã được phái đến đánh ông. Một đạo quân La Mã khác được gửi tới Hy Lạp năm 168 TCN. Dưới sự chỉ huy của Aemilius, quân La Mã giao chiến với người Macedonia tại Pydna. Trong trận đánh, người La Mã phải lùi bước trước sức tấn công của phương trận trên địa hình trống trải, nhưng khi địa hình chuyển sang đồi thoải, lính lê dương đã phản công và tận dụng các khoảng hở trong đội hình Hy Lạp. Khi quân La Mã xuyên thủng được phương trận, nó tan rã. 20.000 người Macedonia tử trận và 11.000 người bị bắt, trong khi chỉ 1.000 người La Mã thiệt mạng.\n\nLiên minh Hellenic chấm dứt và các phần của nó trở thành những nước cộng hòa riêng dưới sự bảo hộ của La Mã. Không còn cần đồng minh trong vùng, người La Mã cắt giảm quyền lực của Pergamum và biến Anatolia thành xứ bảo hộ."
+      ]
+    },
+    {
+      "file": "Spartacus.scx",
+      "name": [
+        "Spartacus",
+        "Spartacus"
+      ],
+      "description": [
+        "Spartacus, 73 to 71 BC\n\nScenario Instructions\n\nA new slave revolt has broken out and much of south central Italy is in turmoil. This revolt may be the most dangerous we have faced. The addition of many gladiators has strengthened the fighting power of the slaves. You are to engage the slave army of Spartacus and destroy it before it depopulates all of central Italy. We can't have the revolt continue or spread.\n\nObjective\n\n- Destroy the gladiator army before it destroys the Italians.",
+        "Spartacus, 73 đến 71 TCN\n\nHướng dẫn màn chơi\n\nMột cuộc nổi dậy mới của nô lệ đã nổ ra và phần lớn vùng trung nam nước Ý đang hỗn loạn. Đây có thể là cuộc nổi dậy nguy hiểm nhất ta từng đối mặt. Việc có thêm nhiều đấu sĩ đã tăng sức chiến đấu của đám nô lệ. Bạn phải giao chiến và tiêu diệt đạo quân nô lệ của Spartacus trước khi nó làm miền trung nước Ý vắng bóng người. Không thể để cuộc nổi dậy tiếp diễn hay lan rộng.\n\nMục tiêu\n\n- Tiêu diệt đạo quân đấu sĩ trước khi nó tiêu diệt người Ý."
+      ],
+      "hints": [
+        "- Research Writing as soon as possible so you can track the Roman invasion force.\n- It may be best to protect only a small portion of your allies, rather than attempting to protect the entire region.",
+        "- Nghiên cứu Chữ viết càng sớm càng tốt để theo dõi lực lượng xâm lược.\n- Có lẽ tốt nhất là chỉ bảo vệ một phần nhỏ đồng minh thay vì cố bảo vệ cả vùng."
+      ],
+      "win": [
+        "Your victory over the huge slave army is great news for the citizens of Rome. We are thankful that this scourge has been removed from the countryside and that peace has been restored. You have been elected one of the three consuls of Rome.",
+        "Chiến thắng của bạn trước đạo quân nô lệ khổng lồ là tin vui lớn với người dân La Mã. Chúng ta biết ơn vì tai họa này đã bị quét khỏi vùng nông thôn và hòa bình đã được lập lại. Bạn đã được bầu làm một trong ba chấp chính quan của La Mã."
+      ],
+      "loss": [
+        "Your failure to save the Italians from Spartacus has embarrassed Rome and encouraged revolt among the slaves to the north as well. Our economy is in shambles. Farms everywhere are devastated. People in the city are starving while people in the countryside are hunted down and killed. You are to be ejected from the Senate, possibly by catapult in the direction of the Tiber River.",
+        "Việc bạn không cứu được người Ý khỏi Spartacus đã làm La Mã bẽ mặt và còn khích lệ nô lệ ở phía bắc nổi dậy. Nền kinh tế của ta tan hoang. Ruộng đồng khắp nơi bị tàn phá. Dân trong thành chết đói, còn dân ở nông thôn bị săn lùng và giết hại. Bạn sẽ bị tống khỏi Viện Nguyên lão, có thể bằng máy bắn đá, bắn về phía sông Tiber."
+      ],
+      "history": [
+        "Slaves obtained through conquest were a major component of the Roman economy, doing most of the common labor and many professional tasks as well. The conditions under which slaves worked and the treatment they received varied widely. During bad times or because of particularly harsh treatment, slave rebellions occurred. These were called Servile Wars, from the Roman word for slaves. (The word slave is thought to have derived from later centuries when so many Slavs were enslaved.)\n\nThe dependence on slaves rather than industrialization is suggested as one reason for the eventual fall of Rome. Another is the lack of new drafts of slaves after the second century AD when new conquests ceased.\n\nThe slave revolt led by the gladiator Spartacus was one of the longest and most destructive. Many additional gladiators (soldier slaves trained to fight in arenas for sport) augmented his fighting forces. For two years the slaves under Spartacus rampaged in central Italy, raping and pillaging at will. They operated from a base near Mt. Vesuvius and defeated several Roman armies sent against them. An army under Crassus brought the slaves to battle in 71 BC and routed them. Pompey completed the restoration of order. Captured slaves were crucified along the road leading back to Rome as a warning to others.",
+        "Nô lệ có được qua chinh phạt là thành phần quan trọng của nền kinh tế La Mã, làm phần lớn lao động phổ thông và cả nhiều công việc chuyên môn. Điều kiện làm việc và cách đối xử với nô lệ rất khác nhau. Vào thời buổi khó khăn hoặc khi bị đối xử quá hà khắc, các cuộc nổi dậy của nô lệ nổ ra. Chúng được gọi là Chiến tranh Nô lệ (Servile Wars), theo từ La Mã chỉ nô lệ. (Từ \"slave\" trong tiếng Anh được cho là bắt nguồn từ những thế kỷ sau, khi rất nhiều người Slav bị bắt làm nô lệ.)\n\nViệc phụ thuộc vào nô lệ thay vì công nghiệp hóa được cho là một trong những nguyên nhân khiến La Mã cuối cùng sụp đổ. Một nguyên nhân khác là việc thiếu nguồn nô lệ mới sau thế kỷ thứ hai SCN, khi các cuộc chinh phạt mới chấm dứt.\n\nCuộc nổi dậy của nô lệ do đấu sĩ Spartacus lãnh đạo là một trong những cuộc dài nhất và tàn phá nặng nề nhất. Nhiều đấu sĩ khác (nô lệ được huấn luyện để chiến đấu trong đấu trường mua vui) đã bổ sung cho lực lượng của ông. Suốt hai năm, đám nô lệ dưới quyền Spartacus hoành hành ở miền trung nước Ý, cướp bóc tùy ý. Họ hoạt động từ một căn cứ gần núi Vesuvius và đánh bại nhiều đạo quân La Mã được phái đến. Một đạo quân dưới quyền Crassus buộc đám nô lệ phải giao chiến năm 71 TCN và đánh tan họ. Pompey hoàn tất việc lập lại trật tự. Những nô lệ bị bắt bị đóng đinh dọc con đường dẫn về La Mã để răn đe những người khác."
+      ]
+    },
+    {
+      "file": "Odenathus vs Persians.scx",
+      "name": [
+        "Odenathus vs Persians",
+        "Odenathus đấu Ba Tư"
+      ],
+      "description": [
+        "Odenathus vs. the Persians, 262 AD\n\nScenario Instructions\n\nThe emperor and the main Roman armies are busy defending other frontiers. They are relying on you, Odenathus, Prince of Palmyra, to defend the East. Persians are besieging the city of Edessa and have captured other towns nearby. You are to drive the Persians from the area.\n\nObjective\n\n- Destroy the Persians.",
+        "Odenathus đấu Ba Tư, 262 SCN\n\nHướng dẫn màn chơi\n\nHoàng đế và các đạo quân chủ lực của La Mã đang bận phòng thủ ở các biên giới khác. Họ trông cậy vào bạn, Odenathus, hoàng thân xứ Palmyra, để bảo vệ phương Đông. Người Ba Tư đang vây hãm thành Edessa và đã chiếm các thị trấn lân cận. Bạn phải đánh đuổi người Ba Tư khỏi vùng này.\n\nMục tiêu\n\n- Tiêu diệt người Ba Tư."
+      ],
+      "hints": [
+        "- Because supplies are very limited in this region, so you must protect your remote supply camps at all costs.\n- A defensive strategy is necessary until you have built enough troops for a sure victory.",
+        "- Vì tài nguyên trong vùng rất hạn chế, bạn phải bảo vệ các trại tiếp tế xa bằng mọi giá.\n- Cần chiến lược phòng thủ cho đến khi bạn có đủ quân để chắc thắng."
+      ],
+      "win": [
+        "The emperor applauds your complete victory over the Persians. Rome is extremely pleased to see our Palmyran allies drive the Persians from our provinces in the East. Our trust in you has been well confirmed. You are our most loyal and valuable ally in the East.",
+        "Hoàng đế hoan nghênh chiến thắng trọn vẹn của bạn trước người Ba Tư. La Mã vô cùng hài lòng khi thấy đồng minh Palmyra đánh đuổi người Ba Tư khỏi các tỉnh phía đông. Niềm tin của chúng ta vào bạn đã được khẳng định. Bạn là đồng minh trung thành và quý giá nhất của chúng ta ở phương Đông."
+      ],
+      "loss": [
+        "Your failure to drive the Persians back has added to Rome's frontier problems. Most of the eastern part of the empire is now open to further Persian raids and conquest. We are removing your title \"Duke of the Orient\" because you are no longer worthy.",
+        "Việc bạn không đẩy lùi được người Ba Tư đã làm vấn đề biên giới của La Mã thêm trầm trọng. Phần lớn phía đông đế chế giờ bỏ ngỏ trước các cuộc cướp phá và chinh phạt tiếp theo của Ba Tư. Chúng tôi tước danh hiệu \"Công tước phương Đông\" của bạn vì bạn không còn xứng đáng."
+      ],
+      "history": [
+        "The Palmyran army under Odenathus intercepted a Persian force loaded with booty that was retreating from raids in western Asia Minor. Abandoning their loot, the Persians fled across the Euphrates. After a brief foray into Syria to remove a tyrant attempting to establish his rule there, Odenathus invaded lost Roman provinces east of the Euphrates. His army was mainly light foot archers, heavy cavalry, lancers, and camelry. He drove the Persians from their siege of Edessa and recaptured other towns. In the next few years, he raided into Armenia and Mesopotamia, defeating Persian armies at each encounter and twice capturing Ctesiphon, the Persian capital.",
+        "Quân đội Palmyra dưới quyền Odenathus đã chặn đánh một lực lượng Ba Tư chở đầy chiến lợi phẩm đang rút lui sau các cuộc cướp phá ở miền tây Tiểu Á. Bỏ lại của cướp được, người Ba Tư chạy qua sông Euphrates. Sau một cuộc hành quân ngắn vào Syria để lật đổ một bạo chúa đang tìm cách lập quyền cai trị ở đó, Odenathus tiến đánh các tỉnh La Mã đã mất ở phía đông sông Euphrates. Quân đội của ông chủ yếu gồm cung thủ bộ binh hạng nhẹ, kỵ binh nặng, kỵ binh cầm thương và kỵ binh lạc đà. Ông đẩy lui người Ba Tư khỏi vòng vây Edessa và chiếm lại các thị trấn khác. Trong vài năm tiếp theo, ông đánh vào Armenia và Lưỡng Hà, đánh bại quân Ba Tư ở mọi trận và hai lần chiếm Ctesiphon, kinh đô Ba Tư."
+      ]
+    }
+  ]
+}

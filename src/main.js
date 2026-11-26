@@ -18,6 +18,7 @@
 /* global __AOE_VI_DATA__ */
 
 import { hashText } from './hash.js';
+import { normalizeText, campaignPairs } from './campaigns.js';
 
 // ---------------------------------------------------------------------------
 // Cấu hình
@@ -62,14 +63,18 @@ let enabled = true;
 const tables = [];             // [{ tbl, orig, vi }] – bảng gốc, bản sao tiếng Anh, bản tiếng Việt
 const patched = new WeakSet(); // bảng chuỗi đã xử lý
 const domMap = new Map();      // tiếng Anh -> tiếng Việt, dùng cho chữ HTML
+const textMap = new Map();     // hash(đoạn tiếng Anh đã chuẩn hóa) -> tiếng Việt (chiến dịch)
 const domOrig = new WeakMap(); // text node -> chữ tiếng Anh gốc
 
 // ---------------------------------------------------------------------------
 // 1. Nạp bản dịch
 //    Bản phát triển: lang/vi/index.json liệt kê các file, mỗi file dạng
 //      { "<ID>": ["English", "Tiếng Việt"], ... }
-//    Bản build: __AOE_VI_DATA__ = { "<ID>": ["<hash câu tiếng Anh>", "Tiếng Việt"] }
-//      (lưu hash thay cho cả câu tiếng Anh để file nhỏ hơn mà vẫn kiểm tra được)
+//      và index.campaigns liệt kê file chiến dịch trong lang/vi/campaigns/
+//    Bản build: __AOE_VI_DATA__ = {
+//      s: { "<ID>": ["<hash câu tiếng Anh>", "Tiếng Việt"] },   // bảng chuỗi
+//      c: { "<hash đoạn tiếng Anh>": "Tiếng Việt" }             // chiến dịch
+//    } (lưu hash thay cho chữ tiếng Anh để file nhỏ hơn mà vẫn so khớp được)
 // ---------------------------------------------------------------------------
 
 const BUNDLED = typeof __AOE_VI_DATA__ !== 'undefined' ? __AOE_VI_DATA__ : null;
@@ -77,17 +82,27 @@ const BUNDLED = typeof __AOE_VI_DATA__ !== 'undefined' ? __AOE_VI_DATA__ : null;
 /** So câu tiếng Anh hiện tại của game với câu (hoặc hash) lưu trong bản dịch. */
 const sameSource = (current, stored) => (BUNDLED ? hashText(current) === stored : current === stored);
 
+const fetchJson = (file) =>
+  fetch(new URL(file, LANG_DIR))
+    .then((r) => r.json())
+    .catch((e) => { console.warn('[AoE-VI] không tải được', file, e); return null; });
+
+/** Trả về bảng chuỗi { ID: [en|hash, vi] } và nạp bản dịch chiến dịch vào textMap. */
 async function loadTranslations() {
-  if (BUNDLED) return BUNDLED;
-  const index = await fetch(new URL('index.json', LANG_DIR)).then((r) => r.json());
-  const parts = await Promise.all(
-    index.files.map((f) =>
-      fetch(new URL(f, LANG_DIR))
-        .then((r) => r.json())
-        .catch((e) => { console.warn('[AoE-VI] không tải được', f, e); return {}; })
-    )
-  );
-  return Object.assign({}, ...parts);
+  if (BUNDLED) {
+    for (const [h, vi] of Object.entries(BUNDLED.c || {})) textMap.set(h, vi);
+    return BUNDLED.s;
+  }
+  const index = await fetchJson('index.json');
+  const [parts, campaigns] = await Promise.all([
+    Promise.all(index.files.map(fetchJson)),
+    Promise.all((index.campaigns || []).map(fetchJson)),
+  ]);
+  for (const c of campaigns) {
+    if (!c) continue;
+    for (const [en, vi] of campaignPairs(c)) textMap.set(hashText(normalizeText(en)), vi);
+  }
+  return Object.assign({}, ...parts.filter(Boolean));
 }
 
 // ---------------------------------------------------------------------------
@@ -191,6 +206,13 @@ function showToast(message) {
 
 const insideAoe = (el) => el?.closest?.('[class*="w1-aoe1"],[class*="w1-aoload"]');
 
+/** Tìm bản dịch cho một đoạn chữ HTML: câu ngắn theo bảng chuỗi, đoạn dài theo chiến dịch. */
+function lookupVi(text) {
+  if (domMap.has(text)) return domMap.get(text);
+  if (!textMap.size || !text) return undefined;
+  return textMap.get(hashText(normalizeText(text)));
+}
+
 function translateNode(node) {
   if (!insideAoe(node.parentElement)) return;
   const current = node.nodeValue;
@@ -198,16 +220,17 @@ function translateNode(node) {
 
   let en = domOrig.get(node);
   // Game đổi sang chữ khác -> coi chữ mới là gốc
-  if (en === undefined || (trimmed !== en && trimmed !== domMap.get(en))) en = trimmed;
-  if (!domMap.has(en)) { domOrig.delete(node); return; }
+  if (en === undefined || (trimmed !== en && trimmed !== lookupVi(en))) en = trimmed;
+  const vi = lookupVi(en);
+  if (vi === undefined) { domOrig.delete(node); return; }
   domOrig.set(node, en);
 
-  const wanted = enabled ? domMap.get(en) : en;
-  if (trimmed !== wanted) node.nodeValue = current.replace(trimmed, wanted);
+  const wanted = enabled ? vi : en;
+  if (trimmed !== wanted) node.nodeValue = current.replace(trimmed, () => wanted);
 }
 
 function translateDom(root) {
-  if (!domMap.size) return;
+  if (!domMap.size && !textMap.size) return;
   if (root.nodeType === Node.TEXT_NODE) return translateNode(root);
   const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
   for (let n = walker.nextNode(); n; n = walker.nextNode()) translateNode(n);
@@ -281,7 +304,7 @@ if (window.__aoeVI) {
 
   const start = async () => {
     const translations = await loadTranslations();
-    log(`Đã tải ${Object.keys(translations).length} bản dịch.`);
+    log(`Đã tải ${Object.keys(translations).length} câu và ${textMap.size} đoạn chiến dịch.`);
     findStringModules((lang) => applyToTable(lang, translations));
   };
 

@@ -6,11 +6,13 @@
  *
  * - Nhúng toàn bộ bản dịch vào một file, chỉ 1 lượt tải.
  * - Thay câu tiếng Anh bằng hash ngắn (vẫn kiểm tra được khi game đổi câu gốc).
+ * - Gộp bản dịch chiến dịch (lang/vi/campaigns/*.json) theo hash của đoạn tiếng Anh.
  * - Minify code.
  */
 import { build } from 'esbuild';
 import { readFile, mkdir, stat } from 'node:fs/promises';
 import { hashText } from '../src/hash.js';
+import { normalizeText, campaignPairs } from '../src/campaigns.js';
 
 const LANG_DIR = new URL('../lang/vi/', import.meta.url);
 const OUT = 'dist/aoe-vi.min.js';
@@ -34,10 +36,22 @@ async function loadLang() {
       data[id] = [hashText(en), vi];
     }
   }
-  return { data, problems, files: index.files.length };
+  // Chiến dịch: { hash(đoạn tiếng Anh) : tiếng Việt }
+  const campaigns = {};
+  let missing = 0;
+  for (const file of index.campaigns || []) {
+    let json;
+    try { json = JSON.parse(await readFile(new URL(file, LANG_DIR), 'utf8')); }
+    catch { missing++; continue; }   // chiến dịch chưa dịch
+    for (const [en, vi] of campaignPairs(json)) {
+      if (formatSpecs(en) !== formatSpecs(vi)) problems.push(`${file}: lệch %s/%d trong "${vi.slice(0, 40)}..."`);
+      campaigns[hashText(normalizeText(en))] = vi;
+    }
+  }
+  return { data: { s: data, c: campaigns }, problems, files: index.files.length, missing };
 }
 
-const { data, problems, files } = await loadLang();
+const { data, problems, files, missing } = await loadLang();
 if (problems.length) {
   console.error('Lỗi trong bản dịch:\n  ' + problems.join('\n  '));
   process.exit(1);
@@ -58,4 +72,5 @@ await build({
 });
 
 const { size } = await stat(OUT);
-console.log(`OK: ${Object.keys(data).length} câu từ ${files} file -> ${OUT} (${(size / 1024).toFixed(1)} KB)`);
+console.log(`OK: ${Object.keys(data.s).length} câu từ ${files} file, ${Object.keys(data.c).length} đoạn chiến dịch` +
+  (missing ? ` (${missing} file chiến dịch chưa có)` : '') + ` -> ${OUT} (${(size / 1024).toFixed(1)} KB)`);

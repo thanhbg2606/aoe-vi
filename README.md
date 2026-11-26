@@ -1,7 +1,8 @@
 # aoe-vi – Việt hóa Age of Empires trên vivalarts.com
 
 Việt hóa game **Age of Empires (1997)** chạy trên trình duyệt tại <https://vivalarts.com>:
-menu, tên đơn vị, công trình, công nghệ, nút lệnh, thông báo trong trận và mô tả khi rê chuột (khoảng 1.400 câu).
+menu, tên đơn vị, công trình, công nghệ, nút lệnh, thông báo trong trận và mô tả khi rê chuột (khoảng 1.400 câu),
+cùng toàn bộ 8 chiến dịch (55 màn): hướng dẫn, gợi ý, lịch sử, thông báo thắng/thua và tên màn chơi.
 
 ---
 
@@ -59,7 +60,7 @@ Mỗi lần tải lại trang (F5) thì chạy dấu trang lại một lần.
 ### Lưu ý
 
 - Phải chơi trong **trình duyệt**. Nếu mở vivalarts như app từ màn hình chính (không có thanh địa chỉ) thì cả hai cách đều không chạy được.
-- Lần đầu chạy cần có mạng để tải bản dịch (khoảng 70 KB).
+- Lần đầu chạy cần có mạng để tải bản dịch (khoảng 270 KB, ~80 KB khi nén).
 - Không thấy gì thay đổi: mở F12 → Console, tìm dòng `[AoE-VI]` để xem lỗi.
 
 ---
@@ -71,8 +72,10 @@ Mỗi lần tải lại trang (F5) thì chạy dấu trang lại một lần.
 ```
 src/main.js                  Code chính: tìm bảng chuỗi của game và thay bằng bản dịch
 src/hash.js                  Hàm hash dùng chung cho lúc chạy và lúc build
+src/campaigns.js             Đọc bản dịch chiến dịch, dùng chung cho lúc chạy và lúc build
 lang/vi/index.json           Danh sách file dịch
-lang/vi/*.json               Bản dịch, chia theo nhóm
+lang/vi/*.json               Bản dịch bảng chuỗi của game, chia theo nhóm
+lang/vi/campaigns/*.json     Bản dịch chiến dịch, mỗi chiến dịch một file
 scripts/build.mjs            Build: gộp src + lang thành một file, minify (esbuild)
 aoe-vi.user.js               Bản Tampermonkey (chỉ tải file build)
 .github/workflows/pages.yml  Tự build và đưa lên GitHub Pages khi push vào master
@@ -105,6 +108,46 @@ Mỗi dòng có dạng `"ID": ["tiếng Anh gốc", "tiếng Việt"]`:
 | `technologies.json` | Công nghệ, nâng cấp | 7000–8999 |
 | `menus.json` | Menu, cài đặt trận, bảng điểm, nền văn minh, trình tạo màn chơi | 9000–19999 |
 | `tooltips.json` | Mô tả, gợi ý khi rê chuột | 30000–59999 |
+
+### Sửa bản dịch chiến dịch
+
+Hướng dẫn, gợi ý, lịch sử của từng màn không nằm trong bảng chuỗi mà trong file chiến dịch của game,
+nên được dịch theo nguyên văn cả đoạn. Mỗi file trong `lang/vi/campaigns/` có dạng:
+
+```json
+{
+  "file": "EXPANS_4.CPX",
+  "name": ["Expansion Enemies of Rome", "Mở rộng 4: Kẻ thù của La Mã"],
+  "scenarios": [
+    {
+      "file": "Crossing the Alps.scx",
+      "name": ["Crossing the Alps", "Vượt dãy Alps"],
+      "description": ["<hướng dẫn tiếng Anh>", "<tiếng Việt>"],
+      "hints":       ["...", "..."],
+      "win":         ["...", "..."],
+      "loss":        ["...", "..."],
+      "history":     ["...", "..."]
+    }
+  ]
+}
+```
+
+- Chỉ sửa phần **tiếng Việt** (phần tử thứ hai). Xuống dòng viết là `\n`.
+- Phần tiếng Anh phải giữ nguyên văn như trong game, vì bản dịch được tìm theo đúng đoạn đó.
+- Mục nào màn chơi không có (vd. nhiều màn không có `loss`) thì không cần.
+
+| File | Chiến dịch |
+|---|---|
+| `ascent_1.json` | Ascent of Egypt (học chơi, 12 màn) |
+| `gloryo_1.json` | Glory of Greece (8 màn) |
+| `voices_1.json` | Voices of Babylon (8 màn) |
+| `yamato_1.json` | Yamato, Empire of the Rising Sun (8 màn) |
+| `expans_1.json` | Rise of Rome (6 màn) |
+| `expans_2.json` | Ave Caesar (4 màn) |
+| `expans_3.json` | Pax Romana (5 màn) |
+| `expans_4.json` | Enemies of Rome (4 màn) |
+
+### Bảng chuỗi gốc
 
 Bảng chuỗi gốc của game: mở vivalarts, vào Age of Empires, F12 → Console, chạy
 `(await import('/assets/strings-<hash>.js')).t.language` (tên file xem trong tab Network, lọc `strings-`).

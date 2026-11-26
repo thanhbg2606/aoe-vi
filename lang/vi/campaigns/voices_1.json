@@ -1,0 +1,197 @@
+{
+  "file": "VOICES_1.CPN",
+  "name": [
+    "Voices of Babylon",
+    "Tiếng nói Babylon"
+  ],
+  "scenarios": [
+    {
+      "file": "Holy Man.scn",
+      "name": [
+        "Holy Man",
+        "Thánh nhân"
+      ],
+      "description": [
+        "Holy Man, 1760 BC\n\nScenario Instructions:\n\nThe small kingdom of Babylon is growing under the energetic leadership of its new king, Hammurabi. You have been sent down river to bring some enclaves of Elamites and Akkadians into the fold. Use your powers of persuasion where you can, but don't hesitate to resort to war if they prove difficult.\n\nObjective:\n\n-  Convert or destroy the Elamites and Akkadians.",
+        "Thánh nhân, 1760 TCN\n\nHướng dẫn màn chơi:\n\nVương quốc nhỏ Babylon đang lớn mạnh dưới sự lãnh đạo năng nổ của vị vua mới Hammurabi. Bạn được phái xuôi dòng sông để thu phục vài vùng đất của người Elam và người Akkad. Hãy dùng tài thuyết phục khi có thể, nhưng đừng ngần ngại dùng đến chiến tranh nếu họ tỏ ra khó bảo.\n\nMục tiêu:\n\n- Cải đạo hoặc tiêu diệt người Elam và người Akkad."
+      ],
+      "hints": [
+        "Hints:\n\n-  Use your Priest to convert enemy villagers and military units.\n-  The town to the east may be your best bet for establishing a quick foothold.",
+        "Gợi ý:\n\n- Dùng Tu sĩ để cải đạo dân làng và quân lính của địch.\n- Thị trấn ở phía đông có lẽ là lựa chọn tốt nhất để nhanh chóng có chỗ đứng."
+      ],
+      "win": [
+        "Historical Outcome:\n\nHammurabi ruled Babylon for 42 years and presided over the first great Babylonian Empire. He captured both Akkad and Sumer, reestablishing the eastern part of Sargon's old empire. He extended his influence into and over the Zagros Mountains, subjugating both the Gutian tribesmen of the hills and the Elamites on the plateau beyond. He is best remembered for his code of laws and penalties that standardized justice throughout his empire. A contemporary copy of the code survives today, carved in stone.",
+        "Kết quả lịch sử:\n\nHammurabi cai trị Babylon 42 năm và đứng đầu Đế chế Babylon vĩ đại đầu tiên. Ông chiếm cả Akkad lẫn Sumer, tái lập phần phía đông của đế chế cũ của Sargon. Ông mở rộng ảnh hưởng vào và vượt qua dãy núi Zagros, khuất phục cả các bộ tộc Guti trên đồi lẫn người Elam trên cao nguyên phía sau. Ông được nhớ đến nhiều nhất với bộ luật và hình phạt chuẩn hóa công lý trên toàn đế chế. Một bản sao cùng thời của bộ luật, khắc trên đá, vẫn còn đến ngày nay."
+      ],
+      "history": [
+        "Historical Notes:\n\nHammurabi inherited the throne of the small Amorite kingdom of Babylon in 1792 BC. The kingdom consisted of the city of Babylon on the Euphrates River and surrounding farmlands. The kingdom had been founded only 100 years earlier. It was surrounded by similar small kingdoms, centered on other small cities. To the northwest was the larger kingdom of Akkadia and to the southeast, down river, was the ancient kingdom of Sumer. The entire region had been controlled at one time by the Akkadian king Sargon, who had created the first great empire of history around 2350 BC. This empire stretched from the Persian Gulf to the Mediterranean. It had fallen apart by 2230 BC, however, because of internal rebellions and invasions by Gutian tribesmen from the Zagros Mountains to the east.\n\nAround 2000 BC, a new group of nomadic Semites, the Amorites, conquered Sumer, Akkad, and Assyria, setting up new dynasties in the cities and kingdoms of Mesopotamia and Canaan. Hammurabi was the descendant of these conquerors and destined to be the most famous of his tribe.",
+        "Ghi chú lịch sử:\n\nHammurabi thừa kế ngai vàng của vương quốc Amorite nhỏ bé Babylon năm 1792 TCN. Vương quốc gồm thành Babylon bên sông Euphrates và ruộng đồng xung quanh. Vương quốc mới được lập khoảng 100 năm trước đó. Xung quanh là những vương quốc nhỏ tương tự, mỗi nước lấy một thành nhỏ làm trung tâm. Phía tây bắc là vương quốc Akkad lớn hơn, còn phía đông nam, xuôi dòng sông, là vương quốc cổ Sumer. Cả vùng từng có thời nằm dưới quyền vua Akkad Sargon, người đã lập ra đế chế vĩ đại đầu tiên trong lịch sử vào khoảng năm 2350 TCN. Đế chế này trải dài từ vịnh Ba Tư đến Địa Trung Hải. Tuy nhiên nó đã tan rã vào năm 2230 TCN do nội loạn và các cuộc xâm lược của bộ tộc Guti từ dãy núi Zagros ở phía đông.\n\nKhoảng năm 2000 TCN, một nhóm người Semite du mục mới là người Amorite đã chinh phục Sumer, Akkad và Assyria, lập ra các triều đại mới ở các thành phố và vương quốc của Lưỡng Hà và Canaan. Hammurabi là hậu duệ của những người chinh phục này và trở thành người nổi tiếng nhất trong bộ tộc."
+      ]
+    },
+    {
+      "file": "Tigiris Valley.scn",
+      "name": [
+        "Tigiris Valley",
+        "Thung lũng Tigris"
+      ],
+      "description": [
+        "Tigris Valley, 1755 BC\n\nScenario Instructions:\n\nThe addition of the Elamite and Akkadian towns into the Babylonian Empire pleases Hammurabi greatly. He has a more difficult task for you now. One of your frontier cities was recently sacked and important treasures were carried off, including a copy of Hammurabi's law code engraved in stone. Push into the area where the treasures were taken and build up a force to recover them. The prestige of your great king remains tarnished as long as these treasures remain in enemy hands.\n\nObjective:\n\n-  Capture 2 missing Treasures",
+        "Thung lũng Tigris, 1755 TCN\n\nHướng dẫn màn chơi:\n\nViệc sáp nhập các thị trấn của người Elam và Akkad vào Đế chế Babylon làm Hammurabi rất hài lòng. Giờ ngài có một nhiệm vụ khó hơn cho bạn. Một thành phố biên giới của bạn vừa bị cướp phá và nhiều báu vật quan trọng bị mang đi, trong đó có bản sao bộ luật Hammurabi khắc trên đá. Hãy tiến vào vùng báu vật bị đem đến và xây dựng lực lượng để thu hồi chúng. Uy danh của đức vua vĩ đại sẽ còn hoen ố chừng nào báu vật còn trong tay kẻ thù.\n\nMục tiêu:\n\n- Chiếm lại 2 Báu vật bị mất"
+      ],
+      "hints": [
+        "Hints:\n\n-  A strong navy is the key to ensuring your victory.\n-  Seek trade with others to stockpile gold.",
+        "Gợi ý:\n\n- Hải quân mạnh là chìa khóa bảo đảm chiến thắng.\n- Hãy giao thương với người khác để tích trữ vàng."
+      ],
+      "win": [
+        "Historical Outcome:\n\nHammurabi was a capable general as well as administrator. As he expanded his empire, he also managed to stop any raids or invasions from other quarters. The Babylonian Empire that he assembled gradually declined following his death, but would be reconstituted once again a thousand years later.",
+        "Kết quả lịch sử:\n\nHammurabi vừa là một vị tướng tài vừa là nhà cai trị giỏi. Trong khi mở rộng đế chế, ông còn ngăn chặn được mọi cuộc cướp phá hay xâm lược từ các phía khác. Đế chế Babylon do ông gây dựng dần suy tàn sau khi ông mất, nhưng sẽ được tái lập một nghìn năm sau."
+      ],
+      "history": [
+        "Historical Notes:\n\nThe Babylonian Empire expanded and enjoyed prosperity throughout Hammurabi's reign. There is little record of rebellion against his rule, which is a testimony to his skill as a ruler over a diverse area. The wealth that followed long years of peace attracted raids, however.",
+        "Ghi chú lịch sử:\n\nĐế chế Babylon mở rộng và thịnh vượng suốt triều đại Hammurabi. Có rất ít ghi chép về nổi loạn chống lại ông, minh chứng cho tài cai trị một vùng đất đa dạng. Tuy nhiên, sự giàu có sau nhiều năm hòa bình đã thu hút những cuộc cướp phá."
+      ]
+    },
+    {
+      "file": "Lost.scn",
+      "name": [
+        "Lost",
+        "Thất thủ"
+      ],
+      "description": [
+        "Lost, 1595 BC\n\nScenario Instructions:\n\nDisaster has struck. A Hittite army has marched down the Euphrates River and sacked Babylon. Although your party is isolated among enemies in a marsh area, it is the only hope for extracting revenge. A Hittite force remains in the area and intends to build a new city along the river. Clear your enemies from the marshlands and destroy the Hittite city before it becomes established.\n\nObjective:\n\n-  Destroy the Hittites.",
+        "Thất thủ, 1595 TCN\n\nHướng dẫn màn chơi:\n\nThảm họa đã ập đến. Một đạo quân Hittite đã xuôi sông Euphrates và cướp phá Babylon. Dù nhóm của bạn bị cô lập giữa kẻ thù trong vùng đầm lầy, đó là hy vọng duy nhất để trả thù. Một lực lượng Hittite vẫn ở lại trong vùng và định xây một thành phố mới bên sông. Hãy quét sạch kẻ thù khỏi vùng đầm lầy và phá hủy thành phố Hittite trước khi nó đứng vững.\n\nMục tiêu:\n\n- Tiêu diệt người Hittite."
+      ],
+      "hints": [
+        "Hints:\n\n-  Use your Priest to enlighten those you meet along your way - they may be useful to you.\n-  Once you establish a strong navy, you will be able to clear the region of enemies and prepare to invade.",
+        "Gợi ý:\n\n- Dùng Tu sĩ để cảm hóa những người bạn gặp trên đường, họ có thể hữu ích cho bạn.\n- Khi đã có hải quân mạnh, bạn sẽ có thể quét sạch kẻ thù trong vùng và chuẩn bị xâm lược."
+      ],
+      "win": [
+        "Historical Outcome:\n\nWhether the Hittites hoped to settle along the Euphrates is not clear. They apparently withdrew quickly after sacking Babylon and returned to their traditional sphere of influence along the upper reaches of the river. Remnants of the Babylonian army or guerrilla-style warfare may have convinced them to return whence they came.",
+        "Kết quả lịch sử:\n\nKhông rõ người Hittite có hy vọng định cư bên sông Euphrates hay không. Có vẻ họ đã nhanh chóng rút đi sau khi cướp phá Babylon và quay về vùng ảnh hưởng truyền thống ở thượng nguồn con sông. Tàn quân Babylon hay lối đánh du kích có thể đã khiến họ quay về nơi họ đến."
+      ],
+      "loss": [
+        "Historical Outcome:\n\nWhether the Hittites hoped to settle along the Euphrates is not clear. They apparently withdrew quickly after sacking Babylon and returned to their traditional sphere of influence along the upper reaches of the river. Remnants of the Babylonian army or guerrilla style warfare may have convinced them to return whence they came.",
+        "Kết quả lịch sử:\n\nKhông rõ người Hittite có hy vọng định cư bên sông Euphrates hay không. Có vẻ họ đã nhanh chóng rút đi sau khi cướp phá Babylon và quay về vùng ảnh hưởng truyền thống ở thượng nguồn con sông. Tàn quân Babylon hay lối đánh du kích có thể đã khiến họ quay về nơi họ đến."
+      ],
+      "history": [
+        "Historical Notes:\n\nThe Babylonian Empire of Hammurabi diminished gradually over the next 150 years. First the Elamites across the Zagros Mountains reestablished their independence, and then the Gutian tribes in the mountains reestablished theirs. Then Akkadia and Sumer split away. Babylon remained a rich city, however, thanks to its trade connections along the Euphrates River. In 1595 BC, the Amorite dynasty of Hammurabi suffered a death blow. In a lightning campaign that is difficult to understand today, a Hittite army marched down the Euphrates and sacked Babylon. The purpose of such a raid so far from Hittite areas of influence is a mystery, unless tales of the wealth of Babylon even then proved irresistible to an army looking for plunder.",
+        "Ghi chú lịch sử:\n\nĐế chế Babylon của Hammurabi dần thu hẹp trong 150 năm tiếp theo. Trước tiên người Elam bên kia dãy Zagros giành lại độc lập, rồi đến các bộ tộc Guti trên núi. Sau đó Akkad và Sumer tách ra. Tuy vậy Babylon vẫn là một thành phố giàu có nhờ các mối giao thương dọc sông Euphrates. Năm 1595 TCN, triều đại Amorite của Hammurabi chịu một đòn chí mạng. Trong một chiến dịch chớp nhoáng khó hiểu đến ngày nay, một đạo quân Hittite xuôi sông Euphrates và cướp phá Babylon. Mục đích của cuộc cướp phá xa vùng ảnh hưởng của người Hittite đến vậy vẫn là điều bí ẩn, trừ phi ngay từ thời đó những câu chuyện về sự giàu có của Babylon đã quá hấp dẫn với một đạo quân đi tìm của cướp."
+      ]
+    },
+    {
+      "file": "I Shall Return.scn",
+      "name": [
+        "I Shall Return",
+        "Ta sẽ trở lại"
+      ],
+      "description": [
+        "I Shall Return, 1125 BC\n\nScenario Instructions:\n\nFollowing the Hittite invasion and retreat, Babylonia has been ruled by Kassites for nearly 500 years. Kassite rule is in danger, however, because of Elamite and Assyrian intrusions. Another Elamite army is pressing forward at this moment. If the city cannot be held, you are to save what you can, retreat down river, and build up a new army. Retake Babylon for the Babylonians and destroy the Elamites.\n\nObjective:\n\n-  Destroy the Elamites.",
+        "Ta sẽ trở lại, 1125 TCN\n\nHướng dẫn màn chơi:\n\nSau cuộc xâm lược và rút lui của người Hittite, Babylonia đã bị người Kassite cai trị gần 500 năm. Tuy nhiên sự cai trị của người Kassite đang lâm nguy vì sự xâm nhập của người Elam và người Assyria. Lúc này một đạo quân Elam khác đang tiến tới. Nếu không giữ được thành, bạn phải cứu những gì có thể, rút xuôi dòng sông và xây dựng một đạo quân mới. Hãy chiếm lại Babylon cho người Babylon và tiêu diệt người Elam.\n\nMục tiêu:\n\n- Tiêu diệt người Elam."
+      ],
+      "hints": [
+        "Hints:\n\n-  Escape may be your only answer.\n-  Look east for resources needed to prepare for a victorious return to your homeland.",
+        "Gợi ý:\n\n- Có thể trốn thoát là cách duy nhất.\n- Hãy nhìn về phía đông để tìm tài nguyên chuẩn bị cho cuộc trở về quê hương thắng lợi."
+      ],
+      "win": [
+        "Historical Outcome:\n\nBabylon changed hands several times between 1160 and 1125 BC, but was finally retaken and held by the Babylonians themselves under the leadership of Nebuchadnezzar I. The reign of Nebuchadnezzar I was a second peak in the history of Babylonia, although a large empire was not established. The people took great pride in throwing out the somewhat foreign Kassites and holding off the attacks from Assyria and Elam.",
+        "Kết quả lịch sử:\n\nBabylon đổi chủ nhiều lần trong khoảng năm 1160 đến 1125 TCN, nhưng cuối cùng được chính người Babylon giành lại và giữ vững dưới sự lãnh đạo của Nebuchadnezzar I. Triều đại Nebuchadnezzar I là đỉnh cao thứ hai trong lịch sử Babylonia, dù không lập được một đế chế rộng lớn. Người dân rất tự hào vì đã đuổi được người Kassite vốn có phần ngoại lai và đẩy lùi các cuộc tấn công của Assyria và Elam."
+      ],
+      "history": [
+        "Historical Notes:\n\nThe Kassites took control of Babylon following the sack of the city by Hittites and ruled for approximately 500 years. This period was not one of peace, however. The Mitanni to the northwest were a powerful antagonist briefly, and conquered Assyria around 1440 BC after making peace with Egypt. The Mitanni in turn were conquered by the Hittites around 1370 BC. The Hittites did not venture further south, however. A middle Assyrian empire arose from 1363 to 1000 BC, pushing back through Syria to the Mediterranean and encroaching south against Babylon. A resurgent Elam to the east was also a source of conflict. In the middle of these 500 years, the eastern Mediterranean was overwhelmed by barbarian invasion that destroyed the Hittites, Myceneans, Minoans, and Canaanites. Around 1150 BC, the Assyrians and Elamites began serious attempts to take Babylon.",
+        "Ghi chú lịch sử:\n\nNgười Kassite nắm quyền ở Babylon sau khi thành phố bị người Hittite cướp phá và cai trị khoảng 500 năm. Tuy nhiên thời kỳ này không hề yên bình. Người Mitanni ở phía tây bắc từng là một đối thủ mạnh trong thời gian ngắn, và đã chinh phục Assyria khoảng năm 1440 TCN sau khi giảng hòa với Ai Cập. Đến lượt người Mitanni bị người Hittite chinh phục khoảng năm 1370 TCN. Tuy vậy người Hittite không tiến xa hơn về phía nam. Một đế chế Trung Assyria nổi lên từ năm 1363 đến 1000 TCN, đánh ngược qua Syria tới Địa Trung Hải và lấn xuống phía nam về phía Babylon. Một Elam hồi sinh ở phía đông cũng là nguồn xung đột. Giữa 500 năm này, vùng đông Địa Trung Hải bị tràn ngập bởi các cuộc xâm lược của người man di, tiêu diệt người Hittite, Mycenae, Minoa và Canaan. Khoảng năm 1150 TCN, người Assyria và Elam bắt đầu nghiêm túc tìm cách chiếm Babylon."
+      ]
+    },
+    {
+      "file": "The Great Hunt.scn",
+      "name": [
+        "The Great Hunt",
+        "Cuộc săn lớn"
+      ],
+      "description": [
+        "The Great Hunt, 1120 BC\n\nScenario Instructions:\n\nThe glory of Babylon has been restored by the recapture of the city from the Elamites. King Nebuchadnezzar I vows that recapturing the city is not enough, however. The Elamites must feel his wrath in their homeland. Attack the Elamites in their mountainous strongholds. Find and recapture the statue of the god Marduk that they carted off (represented by an Artifact). Peoples long oppressed by the Elamites will give you aid in your quest if you can locate them.\n\nObjective:\n\n-  Capture Artifact.",
+        "Cuộc săn lớn, 1120 TCN\n\nHướng dẫn màn chơi:\n\nVinh quang của Babylon đã được khôi phục nhờ giành lại thành phố từ tay người Elam. Nhưng vua Nebuchadnezzar I thề rằng chiếm lại thành phố là chưa đủ. Người Elam phải nếm cơn thịnh nộ của ngài ngay trên quê hương họ. Hãy tấn công người Elam trong các thành trì trên núi của họ. Tìm và giành lại tượng thần Marduk mà họ đã mang đi (thể hiện bằng một Cổ vật). Những dân tộc bị người Elam áp bức lâu nay sẽ giúp bạn nếu bạn tìm được họ.\n\nMục tiêu:\n\n- Chiếm Cổ vật."
+      ],
+      "hints": [
+        "Hints:\n\n-  The long road ahead is paved with many obstacles.  Sometimes it is better to push through a hotspot than to stand and fight.\n-  Gather as many allies as you can along your way; you will need them in the end",
+        "Gợi ý:\n\n- Con đường dài phía trước đầy chướng ngại. Đôi khi vượt nhanh qua điểm nóng còn hơn đứng lại chiến đấu.\n- Hãy tập hợp càng nhiều đồng minh càng tốt trên đường đi; cuối cùng bạn sẽ cần đến họ."
+      ],
+      "win": [
+        "Historical Outcome:\n\nThe Babylonians took war to the Elamites and kept them off balance. The Elamites never threatened to take Babylon again.",
+        "Kết quả lịch sử:\n\nNgười Babylon đưa chiến tranh tới đất Elam và khiến họ luôn chao đảo. Người Elam không bao giờ đe dọa chiếm Babylon được nữa."
+      ],
+      "history": [
+        "Historical Notes:\n\nThe reign of Nebuchadnezzar I was not without turmoil. He engaged in warfare with the enemies that surrounded Babylon to both punish them for past invasions and to keep them off balance. The Elamites to the east were an especial annoyance because they had little else of value near them to covet and the Zagros Mountains were a natural defensive barrier between them and the open land of the Tigris and Euphrates Valleys.",
+        "Ghi chú lịch sử:\n\nTriều đại Nebuchadnezzar I không phải không có biến động. Ông giao chiến với các kẻ thù bao quanh Babylon vừa để trừng phạt họ vì những cuộc xâm lược trước đây vừa để khiến họ mất thế. Người Elam ở phía đông đặc biệt phiền toái, vì quanh họ có ít thứ giá trị để thèm muốn và dãy núi Zagros là bức tường phòng thủ tự nhiên ngăn cách họ với vùng đất trống trải của thung lũng Tigris và Euphrates."
+      ]
+    },
+    {
+      "file": "The Caravan.scn",
+      "name": [
+        "The Caravan",
+        "Đoàn xe"
+      ],
+      "description": [
+        "The Caravan, 1119 BC\n\nScenario Instructions:\n\nThe raid into Elam was successful and the statue of Marduk has been recovered, but the statue must be returned to Babylonia. There are still bands of Elamites and other enemies loose in the Zagros Mountains who wish to prevent the return of the statue (represented by an Artifact). Bring the statue safely to your frontier Temple where it can be guarded prior to being moved to Babylon.\n\nObjective:\n\n-  Return the Artifact to the Temple.",
+        "Đoàn xe, 1119 TCN\n\nHướng dẫn màn chơi:\n\nCuộc đột kích vào Elam đã thành công và tượng thần Marduk đã được thu hồi, nhưng bức tượng phải được đưa về Babylonia. Vẫn còn những toán người Elam và các kẻ thù khác lang thang trong dãy Zagros muốn ngăn bức tượng (thể hiện bằng một Cổ vật) trở về. Hãy đưa bức tượng an toàn về Đền thờ ở biên giới của bạn, nơi nó được canh giữ trước khi chuyển về Babylon.\n\nMục tiêu:\n\n- Đưa Cổ vật về Đền thờ."
+      ],
+      "hints": [
+        "Hints:\n\n-  Choose your path carefully.  The most obvious route may not be the best.\n-  Avoid the west and north corners where there is too much strength for you to handle.",
+        "Gợi ý:\n\n- Hãy chọn đường đi cẩn thận. Con đường hiển nhiên nhất chưa chắc đã là tốt nhất.\n- Tránh các góc phía tây và phía bắc, nơi có lực lượng quá mạnh so với bạn."
+      ],
+      "win": [
+        "Historical Outcome:\n\nBabylon maintained its prestige and independence under Nebuchadnezzar I and for roughly 400 years after. The city was sacked in 689 BC by Sennacherib of Assyria and threatened again in 648 BC.",
+        "Kết quả lịch sử:\n\nBabylon giữ được uy danh và độc lập dưới thời Nebuchadnezzar I và khoảng 400 năm sau đó. Thành phố bị Sennacherib của Assyria cướp phá năm 689 TCN và lại bị đe dọa năm 648 TCN."
+      ],
+      "history": [
+        "Historical Notes:\n\nThe peoples of the Zagros Mountains were a constant irritation to the richer cultures in river valleys below. Trade and travel through these regions were always risks. The area was not pacified until much later, when the Medeans and Persians established control of the region.",
+        "Ghi chú lịch sử:\n\nCác dân tộc ở dãy Zagros là nỗi phiền toái thường trực với các nền văn hóa giàu có hơn ở các thung lũng sông bên dưới. Buôn bán và đi lại qua các vùng này luôn đầy rủi ro. Khu vực chỉ được bình định rất lâu sau đó, khi người Media và người Ba Tư nắm quyền kiểm soát."
+      ]
+    },
+    {
+      "file": "Lord of the Euphrates.scn",
+      "name": [
+        "Lord of the Euphrates",
+        "Chúa tể sông Euphrates"
+      ],
+      "description": [
+        "Lord of the Euphrates, 648 BC\n\nScenario Instructions:\n\nThe destruction of the Elamites and the return of the statue of Marduk to Babylon have brought many years of relative peace to the Euphrates Valley, but the armies are marching again. The Assyrians are extending their empire and are threatening from the north. The Chaldeans are pushing up river from the south. You are to revitalize the Babylonian armies and destroy both invaders now encroaching into your territory.\n\nObjective:\n\n-  Destroy the Assyrians and Chaldeans.",
+        "Chúa tể sông Euphrates, 648 TCN\n\nHướng dẫn màn chơi:\n\nViệc tiêu diệt người Elam và đưa tượng thần Marduk về Babylon đã đem lại nhiều năm tương đối hòa bình cho thung lũng Euphrates, nhưng các đạo quân lại đang hành quân. Người Assyria đang mở rộng đế chế và đe dọa từ phía bắc. Người Chaldea đang ngược dòng sông từ phía nam. Bạn phải chấn hưng quân đội Babylon và tiêu diệt cả hai kẻ xâm lược đang lấn vào lãnh thổ của bạn.\n\nMục tiêu:\n\n- Tiêu diệt người Assyria và người Chaldea."
+      ],
+      "hints": [
+        "Hints:\n\n-  Prepare your defenses quickly, for the enemy is on all sides.\n-  Make no attack until you are prepared to face the enemy at full force.",
+        "Gợi ý:\n\n- Hãy chuẩn bị phòng thủ nhanh vì kẻ thù ở khắp mọi phía.\n- Đừng tấn công cho đến khi bạn sẵn sàng đối đầu toàn bộ lực lượng địch."
+      ],
+      "win": [
+        "Historical Outcome:\n\nBabylon fell to the Assyrians in 648 BC, but recovered over the next few decades to be a power once more. The Chaldeans took control of Babylon in 626 BC, establishing the Chaldean Dynasty, also referred to as the New Babylonian Empire.",
+        "Kết quả lịch sử:\n\nBabylon rơi vào tay người Assyria năm 648 TCN, nhưng hồi phục trong vài thập kỷ sau để lại trở thành một cường quốc. Người Chaldea nắm quyền ở Babylon năm 626 TCN, lập ra triều đại Chaldea, còn gọi là Đế chế Tân Babylon."
+      ],
+      "history": [
+        "Historical Notes:\n\nAfter 730 BC, new rulers in old Sumeria to the south, the Chaldeans, and the old enemies in Assyria began reasserting claims to Babylon. The Chaldeans ruled in Babylon on several occasions during the next 80 years, and the Assyrians sacked the city in 689. Another Assyrian attack was launched in 648 BC following what they perceived as rebellion from their rule.",
+        "Ghi chú lịch sử:\n\nSau năm 730 TCN, những kẻ cai trị mới ở vùng Sumer cũ phía nam là người Chaldea, cùng kẻ thù cũ Assyria, bắt đầu đòi lại quyền với Babylon. Người Chaldea nhiều lần cai trị Babylon trong 80 năm sau đó, và người Assyria cướp phá thành phố năm 689. Một cuộc tấn công khác của Assyria diễn ra năm 648 TCN sau cái mà họ cho là một cuộc nổi loạn chống lại sự cai trị của họ."
+      ]
+    },
+    {
+      "file": "Nineveh.scn",
+      "name": [
+        "Nineveh",
+        "Nineveh"
+      ],
+      "description": [
+        "Nineveh, 612 BC\n\nScenario Instructions:\n\nThe Assyrians have been pushed back from Babylon and now the tide has turned. The Assyrians have fallen back behind the mighty walls of their capital at Nineveh. Destroy Nineveh's Wonder to break the power of the Assyrians forever. If necessary, destroy any Assyrian allies that stand in your way.\n\nObjective:\n\n-  Destroy Nineveh's Wonder.",
+        "Nineveh, 612 TCN\n\nHướng dẫn màn chơi:\n\nNgười Assyria đã bị đẩy lùi khỏi Babylon và giờ thế cờ đã đảo ngược. Người Assyria đã rút về sau những bức tường hùng vĩ của kinh đô Nineveh. Hãy phá hủy Kỳ quan của Nineveh để bẻ gãy vĩnh viễn sức mạnh của người Assyria. Nếu cần, hãy tiêu diệt mọi đồng minh của Assyria cản đường bạn.\n\nMục tiêu:\n\n- Phá hủy Kỳ quan của Nineveh."
+      ],
+      "hints": [
+        "Hints:\n\n-  Determine which enemy's forces are the weakest and destroy them quickly, for they control the resources you need to win this battle.\n-  Catapults are essential to your success against the Assyrians.  Use these weapons wisely to gain control for the Babylonian Empire.",
+        "Gợi ý:\n\n- Xác định lực lượng địch nào yếu nhất và tiêu diệt chúng nhanh chóng, vì chúng kiểm soát tài nguyên bạn cần để thắng trận này.\n- Máy bắn đá là yếu tố then chốt để thắng người Assyria. Hãy dùng chúng khôn ngoan để giành quyền kiểm soát cho Đế chế Babylon."
+      ],
+      "win": [
+        "Historical Outcome:\n\nThe combined assault by resurgent Babylonia and the Medean newcomers from the east took Nineveh in 612 BC, ending Assyrian power forever. In a few decades, the mighty Assyrians went from capturing Babylon (648 BC) and Susa (639 BC) to ceasing to exist as an empire.\n\nBabylonia entered its last period of glory. Nebuchadnezzar II was its most successful king, remembered best for capturing Jerusalem, capital of Judah, in 597 BC. Following the revolt of Jerusalem in 587-586 BC, many residents were carried off to Babylon and kept there for several generations. This was the Babylonian Captivity described in the Bible.\n\nThe Babylon of this period was perhaps the most impressive city in the world. The wealth of trade and empire was expended on monuments, ziggurats, and palaces. The giant walls and Ishtar Gate were described in detail by Herodotus and listed as a wonder of the world. The famous Hanging Gardens were built to resemble a verdant mountain and remind Nebuchadnezzar's wife of her homeland.\n\nThe final Babylonian Empire lasted until 539 BC. During that year, the people of Babylon surrendered their city to the great Persian king Cyrus. They had grown tired of incompetent rulers and were ready to accept the wise and powerful Persian king.",
+        "Kết quả lịch sử:\n\nCuộc tấn công phối hợp của Babylonia hồi sinh và người Media mới đến từ phía đông đã chiếm Nineveh năm 612 TCN, chấm dứt vĩnh viễn sức mạnh của Assyria. Chỉ trong vài thập kỷ, người Assyria hùng mạnh từ chỗ chiếm Babylon (648 TCN) và Susa (639 TCN) đã không còn tồn tại như một đế chế.\n\nBabylonia bước vào thời kỳ vinh quang cuối cùng. Nebuchadnezzar II là vị vua thành công nhất, được nhớ đến nhiều nhất với việc chiếm Jerusalem, kinh đô xứ Judah, năm 597 TCN. Sau cuộc nổi dậy của Jerusalem năm 587–586 TCN, nhiều cư dân bị đưa về Babylon và giữ ở đó qua nhiều thế hệ. Đó là cuộc Lưu đày Babylon được kể trong Kinh Thánh.\n\nBabylon thời kỳ này có lẽ là thành phố ấn tượng nhất thế giới. Của cải từ thương mại và đế chế được dồn vào các đền đài, tháp ziggurat và cung điện. Những bức tường khổng lồ và Cổng Ishtar được Herodotus mô tả chi tiết và xếp vào hàng kỳ quan thế giới. Vườn treo nổi tiếng được xây giống một ngọn núi xanh tươi để vợ của Nebuchadnezzar nhớ về quê hương.\n\nĐế chế Babylon cuối cùng tồn tại đến năm 539 TCN. Năm đó, người dân Babylon giao thành phố cho vị vua Ba Tư vĩ đại Cyrus. Họ đã chán những kẻ cai trị bất tài và sẵn sàng đón nhận vị vua Ba Tư khôn ngoan, hùng mạnh."
+      ],
+      "history": [
+        "Historical Notes:\n\nWhile Babylon revived under Chaldean rule in the late seventh century BC, the power of Assyria began to wane. Continual warfare had worn heavily on its population. The vassal states of its empire chaffed under oppressive and brutal rule from Nineveh. A new power, Medea, rose east of the Zagros Mountains. Harried from the outside by the Medeans and Babylonians, and weakening within, Assyria was tottering on the edge of ruin by the end of the century. The final shove was during the march toward Nineveh by 612 BC.",
+        "Ghi chú lịch sử:\n\nTrong khi Babylon hồi sinh dưới sự cai trị của người Chaldea vào cuối thế kỷ thứ bảy TCN, sức mạnh của Assyria bắt đầu suy giảm. Chiến tranh liên miên đã làm hao mòn dân số. Các nước chư hầu trong đế chế bất mãn dưới ách cai trị hà khắc, tàn bạo của Nineveh. Một thế lực mới là Media nổi lên ở phía đông dãy Zagros. Bị người Media và Babylon quấy rối từ bên ngoài và suy yếu từ bên trong, đến cuối thế kỷ Assyria đã chênh vênh bên bờ diệt vong. Cú đẩy cuối cùng là cuộc tiến quân về Nineveh năm 612 TCN."
+      ]
+    }
+  ]
+}

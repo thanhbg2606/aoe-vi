@@ -1,0 +1,193 @@
+{
+  "file": "YAMATO_1.CPN",
+  "name": [
+    "Yamato Empire of the Rising Sun",
+    "Yamato – Đế chế Mặt trời mọc"
+  ],
+  "scenarios": [
+    {
+      "file": "The Assassins.scn",
+      "name": [
+        "The Assassins",
+        "Những sát thủ"
+      ],
+      "description": [
+        "Assassins, 365 AD\n\nScenario Instructions:\n\nYamato spies within the Izumo clan lands report that the Izumo leaders are planning an attack against some of your allied clans. A pre-emptive attack against the Izumo is not practical at this time, however. It would hurt your relations with other clans with whom you are negotiating. You are to lead a small band of assassins into Izumo lands, locate their clan leader, and eliminate him. Without their leader, the Izumo cannot attack. This is a dangerous mission, but there are some Yamato friends inside Izumo lands who can help you.\n\nObjective:\n\n-  Eliminate Izumo leader.",
+        "Những sát thủ, 365 SCN\n\nHướng dẫn màn chơi:\n\nGián điệp Yamato trong lãnh địa gia tộc Izumo báo về rằng các thủ lĩnh Izumo đang lên kế hoạch tấn công một số gia tộc đồng minh của bạn. Tuy nhiên, lúc này đánh phủ đầu người Izumo là không khả thi, vì sẽ làm tổn hại quan hệ với các gia tộc khác mà bạn đang đàm phán. Bạn phải dẫn một toán sát thủ nhỏ vào lãnh địa Izumo, tìm ra thủ lĩnh gia tộc và loại bỏ hắn. Không có thủ lĩnh, người Izumo không thể tấn công. Đây là nhiệm vụ nguy hiểm, nhưng có vài người bạn của Yamato trong lãnh địa Izumo có thể giúp bạn.\n\nMục tiêu:\n\n- Loại bỏ thủ lĩnh Izumo."
+      ],
+      "hints": [
+        "Hints:\n\n-  Locate allied Priests near the Izumo homeland; they will restore your strength.\n-  The straightest path may not be the best.",
+        "Gợi ý:\n\n- Tìm các Tu sĩ đồng minh gần quê hương Izumo; họ sẽ hồi phục sức lực cho bạn.\n- Con đường thẳng nhất chưa chắc đã là tốt nhất."
+      ],
+      "win": [
+        "Historical Outcome:\n\nThe Izumo clan leadership was paralyzed temporarily and the Yamato were free to concentrate their efforts elsewhere for the time being.",
+        "Kết quả lịch sử:\n\nBộ máy lãnh đạo gia tộc Izumo tạm thời bị tê liệt và người Yamato rảnh tay dồn sức vào nơi khác trong một thời gian."
+      ],
+      "history": [
+        "Historical Outcome:\n\nThe Izumo clan leadership was paralyzed temporarily and the Yamato were free to concentrate their efforts elsewhere for the time being.",
+        "Kết quả lịch sử:\n\nBộ máy lãnh đạo gia tộc Izumo tạm thời bị tê liệt và người Yamato rảnh tay dồn sức vào nơi khác trong một thời gian."
+      ]
+    },
+    {
+      "file": "Island Hopping.scn",
+      "name": [
+        "Island Hopping",
+        "Chiếm từng đảo"
+      ],
+      "description": [
+        "Island Hopping, 370 AD\n\nScenario Instructions:\n\nThe elimination of the Izumo leader brought a temporary peace to that part of your border, but the Izumo are getting aggressive again. Izumo raiders from islands in the Inland Sea have attacked a number of your coastal villages. They have carried off important treasures from several shrines. You are ordered to attack the Izumo islands and recover the six treasures that they have stolen.\n\nObjective:\n\n-  Recover six stolen Treasures.",
+        "Chiếm từng đảo, 370 SCN\n\nHướng dẫn màn chơi:\n\nViệc loại bỏ thủ lĩnh Izumo đã đem lại hòa bình tạm thời cho vùng biên giới đó, nhưng người Izumo lại đang trở nên hung hăng. Quân đột kích Izumo từ các đảo trong Biển Nội địa đã tấn công nhiều làng ven biển của bạn. Chúng đã cướp đi những báu vật quan trọng từ nhiều đền thờ. Bạn được lệnh tấn công các đảo của Izumo và thu hồi sáu báu vật bị đánh cắp.\n\nMục tiêu:\n\n- Thu hồi sáu Báu vật bị đánh cắp."
+      ],
+      "hints": [
+        "Hints:\n\n-  Some weapons can be fired across the seas while remaining out of enemy range.\n-  Quickly find and eliminate the source of Izumo military ships.",
+        "Gợi ý:\n\n- Một số vũ khí có thể bắn qua biển mà vẫn nằm ngoài tầm của địch.\n- Nhanh chóng tìm và tiêu diệt nơi sản sinh chiến thuyền của Izumo."
+      ],
+      "win": [
+        "Historical Outcome:\n\nThe Yamato force recaptured the six stolen artifacts and restored Yamato prestige.",
+        "Kết quả lịch sử:\n\nLực lượng Yamato đã giành lại sáu cổ vật bị đánh cắp và khôi phục uy danh của Yamato."
+      ],
+      "history": [
+        "Historical Notes:\n\nThe Izumo recovered from the covert attack on their clan and put plans in motion to extract revenge from the Yamato. Coastal raids by the Izumo distracted the Yamato once more from their campaigns in another direction. The Yamato were forced to respond to maintain morale within their clan lands and among their vassals and allies.",
+        "Ghi chú lịch sử:\n\nNgười Izumo hồi phục sau vụ tấn công bí mật vào gia tộc và bắt đầu lên kế hoạch trả thù người Yamato. Những cuộc đột kích ven biển của Izumo một lần nữa khiến người Yamato phân tâm khỏi các chiến dịch ở hướng khác. Người Yamato buộc phải đáp trả để giữ tinh thần trong lãnh địa gia tộc cũng như giữa các chư hầu và đồng minh."
+      ]
+    },
+    {
+      "file": "Capture.scn",
+      "name": [
+        "Capture",
+        "Đoạt cổ vật"
+      ],
+      "description": [
+        "Capture, 375 AD\n\nScenario Instructions:\n\nYour successful raid of the Izumo islands has inflamed your enemies and they have over-reacted by shifting too much of their strength out of position. A weakness has been detected on one of their flanks. Penetrate their defenses where they least expect attack and carry off an important Artifact that they may not be guarding adequately. If you are successful, this raid can demoralize their people and leave their rulers even more vulnerable.\n\nObjective:\n\n-  Capture Artifact",
+        "Đoạt cổ vật, 375 SCN\n\nHướng dẫn màn chơi:\n\nCuộc đột kích thành công vào các đảo của Izumo đã khiến kẻ thù tức giận và phản ứng thái quá, rút quá nhiều lực lượng khỏi vị trí. Một điểm yếu đã bị phát hiện ở một bên sườn của chúng. Hãy chọc thủng phòng tuyến ở nơi chúng ít ngờ nhất và lấy đi một Cổ vật quan trọng mà có lẽ chúng không canh giữ cẩn thận. Nếu thành công, cuộc đột kích này có thể làm dân chúng của chúng nản lòng và khiến những kẻ cai trị càng thêm yếu thế.\n\nMục tiêu:\n\n- Chiếm Cổ vật"
+      ],
+      "hints": [
+        "Hints:\n\n-  The enemy controls resources that you need to achieve victory.\n-  You will need walls and towers to protect your new-found resources.",
+        "Gợi ý:\n\n- Kẻ thù đang kiểm soát những tài nguyên bạn cần để chiến thắng.\n- Bạn sẽ cần tường và tháp để bảo vệ các tài nguyên mới giành được."
+      ],
+      "win": [
+        "Historical Outcome:\n\nThe Izumo were caught badly out of position and the Yamato force penetrated the weakened defenses. The Izumo relics were carried off, bringing despair to the people. The Izumo leadership failed again, while Yamato leaders and soldiers were taking on an aura of invincibility.",
+        "Kết quả lịch sử:\n\nNgười Izumo bị bất ngờ hoàn toàn khi lực lượng đang ở sai vị trí, và quân Yamato đã chọc thủng phòng tuyến suy yếu. Thánh vật của Izumo bị mang đi, khiến dân chúng tuyệt vọng. Giới lãnh đạo Izumo lại thất bại, trong khi các thủ lĩnh và binh sĩ Yamato ngày càng mang hào quang bất khả chiến bại."
+      ],
+      "history": [
+        "Historical Notes:\n\nThe Yamato leadership concluded that they could no longer be distracted elsewhere and must at least neutralize the threat presented by the aggressive Izumo clan to the west. When the Izumo and their allies moved too many troops out of position, the Yamato struck. A small Yamato force set up a base on a poorly guarded flank and then moved deep into Izumo lands. The object of the raid was to carry off Izumo relics that were greatly revered by the Izumo people. A successful raid would further lower the prestige of Izumo leaders.",
+        "Ghi chú lịch sử:\n\nGiới lãnh đạo Yamato kết luận rằng họ không thể tiếp tục bị phân tâm ở nơi khác nữa và ít nhất phải vô hiệu hóa mối đe dọa từ gia tộc Izumo hiếu chiến ở phía tây. Khi người Izumo và đồng minh rút quá nhiều quân khỏi vị trí, người Yamato ra đòn. Một lực lượng Yamato nhỏ lập căn cứ ở một bên sườn ít được canh giữ rồi tiến sâu vào lãnh địa Izumo. Mục tiêu của cuộc đột kích là lấy đi những thánh vật được người Izumo hết mực tôn kính. Một cuộc đột kích thành công sẽ làm uy tín của các thủ lĩnh Izumo giảm sút thêm."
+      ]
+    },
+    {
+      "file": "Mountain Temple.scn",
+      "name": [
+        "Mountain Temple",
+        "Ngôi đền trên núi"
+      ],
+      "description": [
+        "Mountain Temple, 376 AD\n\nScenario Instructions:\n\nThe war with the Izumo is coming to a climax. Your raids and captures have partially demoralized their people and weakened their rulers. You are close to crushing their armies and bringing them under Yamato rule. Destroy the Izumo Temple on their sacred mountain and build a Yamato Temple there. There may be Kibi clan forces supporting the Izumo. The Kibi must be pushed out of the way if they interfere with your attack.\n\nObjectives:\n\n-  Destroy Izumo Temple.\n-  Build Temple where Izumo Temple once stood",
+        "Ngôi đền trên núi, 376 SCN\n\nHướng dẫn màn chơi:\n\nCuộc chiến với người Izumo đang đi đến hồi cao trào. Các cuộc đột kích và chiến lợi phẩm của bạn đã làm dân chúng của họ phần nào nản lòng và làm suy yếu những kẻ cai trị. Bạn sắp đè bẹp quân đội của họ và đưa họ về dưới sự cai trị của Yamato. Hãy phá hủy Đền thờ Izumo trên ngọn núi thiêng của họ và xây một Đền thờ Yamato tại đó. Có thể có lực lượng của gia tộc Kibi hỗ trợ người Izumo. Phải gạt người Kibi sang một bên nếu họ cản trở cuộc tấn công của bạn.\n\nMục tiêu:\n\n- Phá hủy Đền thờ Izumo.\n- Xây Đền thờ tại chỗ Đền thờ Izumo từng đứng."
+      ],
+      "hints": [
+        "Hints:\n\n-  The Kibi are near the resources you need for victory; attack them early before they claim these resources as their own.\n-  Heavy weaponry will be needed to crush the Izumo. Carefully scout out the path ahead.",
+        "Gợi ý:\n\n- Người Kibi ở gần những tài nguyên bạn cần để chiến thắng; hãy tấn công họ sớm trước khi họ chiếm lấy các tài nguyên đó.\n- Cần vũ khí hạng nặng để đè bẹp người Izumo. Hãy trinh sát kỹ con đường phía trước."
+      ],
+      "win": [
+        "Historical Outcome:\n\nThe Izumo assault scattered the Kibi troops supporting the Izumo and then carried the Izumo mountain stronghold. Although losses were heavy, the Yamato eliminated a powerful threat on the main island of Japan. The Izumo submitted to Yamato rule",
+        "Kết quả lịch sử:\n\nCuộc tấn công đã đánh tan quân Kibi hỗ trợ người Izumo rồi chiếm được thành trì trên núi của Izumo. Dù tổn thất nặng nề, người Yamato đã loại bỏ một mối đe dọa lớn trên hòn đảo chính của Nhật Bản. Người Izumo quy phục sự cai trị của Yamato."
+      ],
+      "history": [
+        "Historical Notes:\n\nThe situation was desperate for the Izumo leadership. Of their allies, only the Kibi remained loyal. The others withdrew into neutrality or began negotiating with the Yamato. The Yamato did not let up the pressure. With the Izumo already reeling, the time had come to attack them frontally and force them to submit.",
+        "Ghi chú lịch sử:\n\nTình thế của giới lãnh đạo Izumo đã tuyệt vọng. Trong các đồng minh, chỉ còn người Kibi trung thành. Những người khác rút về trung lập hoặc bắt đầu đàm phán với người Yamato. Người Yamato không hề nới lỏng sức ép. Khi người Izumo đã lảo đảo, đã đến lúc tấn công trực diện và buộc họ quy phục."
+      ]
+    },
+    {
+      "file": "The Canyon of Death.scn",
+      "name": [
+        "The Canyon of Death",
+        "Hẻm núi tử thần"
+      ],
+      "description": [
+        "Canyon of Death, 380 AD\n\nScenario Instructions:\n\nThe defeat of the Izumo and Kibi clans has consolidated the southern part of Honshu Island under Yamato rule. You wish to expand your influence southward now to the island controlled by the Shikoku clan. They showed you great disrespect, however, and have stolen important and valuable items that were being carried by your first emissaries. Rather than attempt an expensive war overseas from a long distance, your small party is to fight through Shikoku territory quickly and recover the items. Carry them to the offshore island that you control. This raid is to demonstrate the power of the Yamato and the futility of resisting your confederation.\n\nObjectives:\n\n-  Recover Artifact.\n-  Carry Artifact to controlled island.",
+        "Hẻm núi tử thần, 380 SCN\n\nHướng dẫn màn chơi:\n\nThất bại của các gia tộc Izumo và Kibi đã củng cố quyền cai trị của Yamato ở phía nam đảo Honshu. Giờ bạn muốn mở rộng ảnh hưởng xuống phía nam, tới hòn đảo do gia tộc Shikoku kiểm soát. Tuy nhiên, họ đã tỏ ra hết sức vô lễ với bạn và cướp những vật phẩm quan trọng, quý giá mà các sứ giả đầu tiên của bạn mang theo. Thay vì liều một cuộc chiến tốn kém ở hải ngoại xa xôi, nhóm quân nhỏ của bạn phải nhanh chóng đánh xuyên qua lãnh thổ Shikoku và thu hồi các vật phẩm. Hãy mang chúng tới hòn đảo ngoài khơi do bạn kiểm soát. Cuộc đột kích này nhằm phô diễn sức mạnh của Yamato và cho thấy chống lại liên minh của bạn là vô ích.\n\nMục tiêu:\n\n- Thu hồi Cổ vật.\n- Mang Cổ vật tới hòn đảo do bạn kiểm soát."
+      ],
+      "hints": [
+        "Hints:\n\n-  Choose your battles carefully on the path to victory.\n-  Friends hold keys to defeating the Shikoku.",
+        "Gợi ý:\n\n- Hãy chọn trận mà đánh trên con đường đến chiến thắng.\n- Bạn bè nắm chìa khóa để đánh bại người Shikoku."
+      ],
+      "win": [
+        "Historical Outcome:\n\nThe elite force of Yamato troops moved quickly through Shikoku lands and defeated a major Shikoku army. The island stronghold was stormed and the stolen artifacts were recovered. Yamato prestige soared while Shikoku spirits were deflated.",
+        "Kết quả lịch sử:\n\nLực lượng tinh nhuệ của Yamato đã nhanh chóng băng qua lãnh địa Shikoku và đánh bại một đạo quân lớn của Shikoku. Thành trì trên đảo bị đánh chiếm và các cổ vật bị đánh cắp được thu hồi. Uy danh Yamato lên cao trong khi tinh thần người Shikoku sa sút."
+      ],
+      "history": [
+        "Historical Notes:\n\nThe Yamato were moving on several fronts, both diplomatically and militarily. While the major effort was focused on the Izumo, negotiations had been opened with the Shikoku clan on the large island at the center of the Inland Sea. The Shikoku proved intractable at first, however, showing great disrespect to Izumo emissaries. Once the Izumo were neutralized, the Yamato shifted a major effort against the Shikoku.",
+        "Ghi chú lịch sử:\n\nNgười Yamato hành động trên nhiều mặt trận, cả ngoại giao lẫn quân sự. Trong khi nỗ lực chính dồn vào người Izumo, các cuộc đàm phán đã được mở với gia tộc Shikoku trên hòn đảo lớn giữa Biển Nội địa. Tuy nhiên, ban đầu người Shikoku tỏ ra cứng đầu, đối xử hết sức vô lễ với các sứ giả. Khi người Izumo đã bị vô hiệu hóa, người Yamato chuyển nỗ lực chính sang đối phó người Shikoku."
+      ]
+    },
+    {
+      "file": "Oppression.scn",
+      "name": [
+        "Oppression",
+        "Áp bức"
+      ],
+      "description": [
+        "Oppression, 385 AD\n\nScenario Instructions:\n\nThe success of your raid through Shikoku lands broke their spirit and within a few years they became part of the Yamato confederation. You have turned your gaze further south now, to the Island of the Kyushu. Your first efforts in Kyushu lands are not going well, however. Your small colony has come under the rule of a powerful Kyushu leader who rules the area nearby. He is now demanding heavy payments to allow you to stay. Due to entanglements to the north on the main island, the Yamato can send you no aid at this time. The Yamato leaders order you to revolt against the Kyushu warlord and gain control of this part of the island. Destroy the Kyushu Government Center.\n\nObjective:\n\n-  Destroy Kyushu Government Center.",
+        "Áp bức, 385 SCN\n\nHướng dẫn màn chơi:\n\nThành công của cuộc đột kích xuyên lãnh địa Shikoku đã bẻ gãy tinh thần họ, và chỉ vài năm sau họ đã gia nhập liên minh Yamato. Giờ bạn hướng tầm mắt xa hơn về phía nam, tới đảo Kyushu. Tuy nhiên, những nỗ lực đầu tiên của bạn trên đất Kyushu không suôn sẻ. Thuộc địa nhỏ của bạn đã rơi vào sự cai trị của một thủ lĩnh Kyushu hùng mạnh cai quản vùng lân cận. Hắn đang đòi những khoản cống nạp nặng nề để cho bạn ở lại. Do vướng bận ở phía bắc trên hòn đảo chính, người Yamato lúc này không thể gửi viện trợ cho bạn. Các thủ lĩnh Yamato ra lệnh cho bạn nổi dậy chống lại lãnh chúa Kyushu và giành quyền kiểm soát vùng này của hòn đảo. Hãy phá hủy Trung tâm chính quyền của Kyushu.\n\nMục tiêu:\n\n- Phá hủy Trung tâm chính quyền Kyushu."
+      ],
+      "hints": [
+        "Hints:\n\n-  Explore the world; there may be gold in unexpected places.\n-  Tribute is not the only answer, but it might be the best",
+        "Gợi ý:\n\n- Hãy khám phá thế giới; có thể có vàng ở những nơi không ngờ tới.\n- Cống nạp không phải là lời giải duy nhất, nhưng có thể là lời giải tốt nhất."
+      ],
+      "win": [
+        "Historical Outcome:\n\nThe Kyushu underestimated badly the resourcefulness and determination of the Yamato settlers. The Kyushu demands for tribute were met only to give the settlers time to withdraw to a coastal island. There they trained and built up strength. In a lightning attack, they returned to Kyushu lands, eliminated the leadership and destroyed the clan government. With their government gone and strong Yamato forces now present, the Kyushu had no recourse but to join the Yamato coalition.",
+        "Kết quả lịch sử:\n\nNgười Kyushu đã đánh giá quá thấp sự tháo vát và quyết tâm của những người định cư Yamato. Những người định cư chỉ đáp ứng yêu sách cống nạp của Kyushu để có thời gian rút ra một hòn đảo ven biển. Tại đó họ luyện tập và xây dựng lực lượng. Trong một trận tấn công chớp nhoáng, họ trở lại lãnh địa Kyushu, loại bỏ giới lãnh đạo và phá hủy chính quyền gia tộc. Không còn chính quyền và giờ có quân Yamato hùng mạnh hiện diện, người Kyushu không còn cách nào khác ngoài gia nhập liên minh Yamato."
+      ],
+      "history": [
+        "Historical Notes:\n\nThe demonstration of Yamato power shook the Shikoku clan badly. Within a few years they agreed to become part of the Yamato clan confederation that was being assembled. This freed the Yamato for more expansion and they turned next to the island of Kyushu to the southwest, the last major geographic area in that direction. A contingent of Yamato emissaries and settlers were moved south to open negotiations with the Kyushu clan, but the Kyushu were emboldened to treat the Yamato people as underlings.",
+        "Ghi chú lịch sử:\n\nMàn phô diễn sức mạnh của Yamato đã làm gia tộc Shikoku chao đảo. Chỉ vài năm sau họ đồng ý gia nhập liên minh các gia tộc mà Yamato đang tập hợp. Điều này giúp người Yamato rảnh tay bành trướng tiếp, và họ quay sang đảo Kyushu ở phía tây nam, vùng địa lý lớn cuối cùng theo hướng đó. Một nhóm sứ giả và người định cư Yamato được đưa xuống phía nam để mở đàm phán với gia tộc Kyushu, nhưng người Kyushu được nước lấn tới, đối xử với người Yamato như kẻ dưới."
+      ]
+    },
+    {
+      "file": "A Friend in Need.scn",
+      "name": [
+        "A Friend in Need",
+        "Giúp bạn lúc hoạn nạn"
+      ],
+      "description": [
+        "A Friend in Need, 400 AD\n\nScenario Instructions:\n\nThe Kyushu have revolted from the Yamato confederation and have turned against the Hyuga, one of our vassal groups to their south. If the Hyuga fall, we lose control of the entire island and reconquest will be a difficult task. Aid our Hyuga vassals in any way possible and destroy the nearby Kyushu town to remove further threats.\n\nObjectives:\n\n-  Protect the Hyuga town.\n-  Destroy Kyushu town.",
+        "Giúp bạn lúc hoạn nạn, 400 SCN\n\nHướng dẫn màn chơi:\n\nNgười Kyushu đã nổi dậy rời khỏi liên minh Yamato và quay sang đánh người Hyuga, một trong các nhóm chư hầu của ta ở phía nam họ. Nếu người Hyuga thất thủ, ta sẽ mất quyền kiểm soát cả hòn đảo và việc tái chinh phục sẽ rất gian nan. Hãy giúp các chư hầu Hyuga bằng mọi cách có thể và phá hủy thị trấn Kyushu gần đó để loại bỏ mối đe dọa.\n\nMục tiêu:\n\n- Bảo vệ thị trấn Hyuga.\n- Phá hủy thị trấn Kyushu."
+      ],
+      "hints": [
+        "Hints:\n\n-  Fight for every gold mine that you discover.\n-  The Kyushu are helpless without their villagers.",
+        "Gợi ý:\n\n- Tranh giành từng mỏ vàng mà bạn phát hiện.\n- Người Kyushu sẽ bất lực nếu không có dân làng."
+      ],
+      "win": [
+        "Historical Outcome:\n\nThe Hyuga town was saved and the Kyushu invasion was pushed back. Both the Yamato and Kyushu mustered forces while negotiations went forward.",
+        "Kết quả lịch sử:\n\nThị trấn Hyuga được cứu và cuộc xâm lược của Kyushu bị đẩy lùi. Cả Yamato lẫn Kyushu đều tập hợp lực lượng trong khi đàm phán vẫn tiếp diễn."
+      ],
+      "history": [
+        "Historical Notes:\n\nThe Kyushu clan did not readily accept domination by the Yamato and were emboldened by new iron technology they imported from the mainland countries nearby. The new and advanced weaponry encouraged them to revolt from Yamato control. The Kyushu turned first against the Hyuga to the south on their island. The Hyuga joined the Yamato confederation when asked. The Kyushu set out to establish their own confederation for ruling Japan and intended that the Hyuga would be their first conquest.",
+        "Ghi chú lịch sử:\n\nGia tộc Kyushu không dễ dàng chấp nhận sự thống trị của Yamato và được thêm can đảm nhờ công nghệ sắt mới nhập từ các nước lục địa gần đó. Vũ khí mới và tiên tiến đã khuyến khích họ nổi dậy thoát khỏi sự kiểm soát của Yamato. Người Kyushu trước tiên quay sang đánh người Hyuga ở phía nam hòn đảo. Người Hyuga đã gia nhập liên minh Yamato khi được đề nghị. Người Kyushu muốn lập liên minh riêng để cai trị Nhật Bản và định biến người Hyuga thành cuộc chinh phục đầu tiên."
+      ]
+    },
+    {
+      "file": "Kyushu Revolts.scn",
+      "name": [
+        "Kyushu Revolts",
+        "Kyushu nổi dậy"
+      ],
+      "description": [
+        "Kyushu Revolts, 405 AD\n\nScenario Instructions:\n\nA Kyushu army is marching toward Hyuga once more. You must defeat the Kyushu army or risk the loss of our Hyuga vassals to a new Kyushu confederation. Win the battle to become the greatest Yamato leader and unite all of Japan.\n\nObjective:\n\n- Destroy the Kyushu homeland.",
+        "Kyushu nổi dậy, 405 SCN\n\nHướng dẫn màn chơi:\n\nMột đạo quân Kyushu lại đang tiến về phía Hyuga. Bạn phải đánh bại đạo quân Kyushu, nếu không sẽ có nguy cơ mất các chư hầu Hyuga vào tay một liên minh Kyushu mới. Hãy thắng trận này để trở thành thủ lĩnh Yamato vĩ đại nhất và thống nhất toàn cõi Nhật Bản.\n\nMục tiêu:\n\n- Phá hủy quê hương của người Kyushu."
+      ],
+      "hints": [
+        "Hints:\n\n-  Use the narrow shallows to your advantage.\n-  The Kyushu have fielded a massive army. Create a large force of your own -- it will be your only chance.",
+        "Gợi ý:\n\n- Tận dụng những vùng nước nông hẹp.\n- Người Kyushu đã đưa ra một đạo quân khổng lồ. Hãy tạo một lực lượng lớn của riêng bạn, đó là cơ hội duy nhất."
+      ],
+      "win": [
+        "Historical Outcome:\n\nThe Kyushu forces were crushed by the Yamato army, ending all threats to Yamato hegemony. For the next 800 years, control of Japan would be contested mainly by families within the Yamato clan, rarely by outsiders.",
+        "Kết quả lịch sử:\n\nLực lượng Kyushu bị quân Yamato đè bẹp, chấm dứt mọi mối đe dọa với quyền bá chủ của Yamato. Trong 800 năm tiếp theo, quyền kiểm soát Nhật Bản chủ yếu được tranh giành giữa các dòng họ trong gia tộc Yamato, hiếm khi bởi người ngoài."
+      ],
+      "history": [
+        "Historical Notes:\n\nNegotiations between the Kyushu and Yamato continued for several years while both sides built military strength. The Kyushu broke off negotiations and attacked toward the Hyuga to their south once more. The Yamato were prepared to respond with their own armies, however, and battle was joined to decide the fate of both clans and which would rule Japan.",
+        "Ghi chú lịch sử:\n\nĐàm phán giữa Kyushu và Yamato kéo dài nhiều năm trong khi cả hai bên đều xây dựng sức mạnh quân sự. Người Kyushu cắt đứt đàm phán và một lần nữa tấn công về phía người Hyuga ở phía nam. Tuy nhiên người Yamato đã sẵn sàng đáp trả bằng quân đội của mình, và trận chiến nổ ra để định đoạt số phận của cả hai gia tộc, xem ai sẽ cai trị Nhật Bản."
+      ]
+    }
+  ]
+}

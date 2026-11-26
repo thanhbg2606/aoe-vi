@@ -1,0 +1,117 @@
+{
+  "file": "EXPANS_2.CPX",
+  "name": [
+    "Expansion 2 Ave Caesar",
+    "Mở rộng 2: Muôn năm Caesar"
+  ],
+  "scenarios": [
+    {
+      "file": "Caesar vs Pirates.scx",
+      "name": [
+        "Caesar vs Pirates",
+        "Caesar đánh cướp biển"
+      ],
+      "description": [
+        "Caesar vs. the Pirates, 67 BC\n\nScenario Instructions\n\nPirates in the Mediterranean have been a plague on trade for decades. Now that we control most of the Mediterranean coastline, it is within our power to wipe out the pirate nests and make the Mediterranean trade routes safe from predation. You have been given responsibility for these areas and the mandate to wipe out the pirates.\n\nObjective\n\n- Destroy all enemy Docks. If Caesar dies, the mission will be lost.",
+        "Caesar đánh cướp biển, 67 TCN\n\nHướng dẫn màn chơi\n\nCướp biển ở Địa Trung Hải đã là tai họa cho việc buôn bán suốt nhiều thập kỷ. Giờ đây chúng ta kiểm soát phần lớn bờ biển Địa Trung Hải, nên đã đủ sức quét sạch các sào huyệt cướp biển và giữ cho các tuyến buôn bán trên Địa Trung Hải an toàn. Bạn được giao trách nhiệm cai quản các vùng này cùng nhiệm vụ tiêu diệt bọn cướp biển.\n\nMục tiêu\n\n- Phá hủy mọi Bến cảng của địch. Nếu Caesar chết, nhiệm vụ thất bại."
+      ],
+      "hints": [
+        "- Opposition will become stronger as you sail farther from Rome.\n- Land strikes are the best way to destroy certain docks.",
+        "- Càng đi xa La Mã, sự kháng cự càng mạnh.\n- Đổ bộ tấn công là cách tốt nhất để phá hủy một số bến cảng."
+      ],
+      "win": [
+        "The merchants and sailors of Rome are exultant to hear that the pirates have been wiped out. The benefits will spread throughout the empire as trade increases and prices fall. You are in line for promotion and new responsibilities. It has been suggested that you take command in the North against the Gauls, Germans, and Britons.",
+        "Thương nhân và thủy thủ La Mã hân hoan khi nghe tin bọn cướp biển đã bị quét sạch. Lợi ích sẽ lan khắp đế chế khi thương mại phát triển và giá cả giảm xuống. Bạn sắp được thăng chức và nhận trọng trách mới. Có ý kiến đề xuất bạn nắm quyền chỉ huy ở phương Bắc để đối phó với người Gaul, người Germani và người Briton."
+      ],
+      "loss": [
+        "The pirates have made a mockery of your boast to return and eradicate them. Rome is disappointed, but because you paid for the expedition personally there will be no recriminations. The job of eliminating the pirates has been given to a real man, Pompey. You can go along to keep his armor oiled.",
+        "Bọn cướp biển đã biến lời khoe khoang sẽ quay lại tiêu diệt chúng của bạn thành trò cười. La Mã thất vọng, nhưng vì bạn tự bỏ tiền cho chuyến viễn chinh nên sẽ không ai trách cứ. Nhiệm vụ diệt cướp biển đã được giao cho một người đàn ông thực thụ: Pompey. Bạn có thể đi theo để lau dầu cho bộ giáp của ông ta."
+      ],
+      "history": [
+        "As a young man Caesar was captured by pirates and held at their secret base for ransom. The pirates laughed when he said he would return one day to root them out and destroy their base. True to his word, he outfitted a small fleet at his own expense, returned to the islands, and destroyed the pirate nest.\n\nPirates operating from bases in Corsica, Sardinia, the Balearic Islands, the Aegean, and the Adriatic had been preying on Roman shipping for many years. This piracy caused great harm to the trade within the growing sphere of Roman influence and control. Operations against pirates between 79 and 68 BC were unsuccessful. Under the efficient and energetic leadership of Caesar and Pompey, the majority of the pirate strongholds were destroyed, bringing relative safety to Mediterranean trade.\n\nCaesar then conducted a series of campaigns in Iberia that brought the remainder of that peninsula under Roman control. Following these successes he was made a member of the Triumvirate, an informal association with Pompey and Crassus. The three leaders vied with each other for control of Rome while dividing responsibility for the rest of the empire. Caesar's colonial responsibilities drew him into a series of campaigns in Gaul (modern France), Germany, and Britain.",
+        "Khi còn trẻ, Caesar từng bị cướp biển bắt và giam ở căn cứ bí mật của chúng để đòi tiền chuộc. Bọn cướp cười nhạo khi ông nói một ngày nào đó sẽ quay lại nhổ tận gốc và phá hủy căn cứ của chúng. Giữ đúng lời hứa, ông tự bỏ tiền trang bị một hạm đội nhỏ, quay lại quần đảo và phá tan sào huyệt cướp biển.\n\nCướp biển hoạt động từ các căn cứ ở Corsica, Sardinia, quần đảo Balearic, biển Aegean và biển Adriatic đã cướp phá tàu bè La Mã suốt nhiều năm. Nạn cướp biển gây thiệt hại lớn cho thương mại trong vùng ảnh hưởng và kiểm soát ngày càng rộng của La Mã. Các chiến dịch chống cướp biển từ năm 79 đến 68 TCN đều không thành công. Dưới sự lãnh đạo hiệu quả và năng nổ của Caesar và Pompey, phần lớn các sào huyệt cướp biển bị phá hủy, đem lại sự an toàn tương đối cho thương mại Địa Trung Hải.\n\nSau đó Caesar tiến hành một loạt chiến dịch ở Iberia, đưa phần còn lại của bán đảo này vào vòng kiểm soát của La Mã. Sau những thành công này, ông trở thành thành viên Tam hùng, một liên minh không chính thức với Pompey và Crassus. Ba nhà lãnh đạo tranh giành quyền kiểm soát La Mã trong khi chia nhau cai quản phần còn lại của đế chế. Trách nhiệm cai quản thuộc địa đã cuốn Caesar vào một loạt chiến dịch ở Gaul (nước Pháp ngày nay), Germania và Britain."
+      ]
+    },
+    {
+      "file": "Britain.scx",
+      "name": [
+        "Britain",
+        "Britain"
+      ],
+      "description": [
+        "Britain, 55 to 54 BC\n\nScenario Instructions\n\nYou have been governor of Gaul (modern France) since 58 BC and have fought a series of brilliant campaigns. The entire region west of the Rhine River is now under Roman control. With the Gauls subdued and their German allies punished, it is time to invade Britain and deal with the tribes there that have supported the Gauls against us. Take your legions across the channel into Britain and force the tribes to make peace. We want no further interference from them in Gaul.\n\nObjective\n\n- Capture and hold all the British centers of power (Ruins). If Caesar dies, the mission will be lost.",
+        "Britain, 55 đến 54 TCN\n\nHướng dẫn màn chơi\n\nBạn làm thống đốc xứ Gaul (nước Pháp ngày nay) từ năm 58 TCN và đã tiến hành một loạt chiến dịch xuất sắc. Toàn bộ vùng phía tây sông Rhine giờ đã thuộc quyền kiểm soát của La Mã. Người Gaul đã bị khuất phục và đồng minh Germani của họ đã bị trừng phạt, giờ là lúc xâm lược Britain và xử lý các bộ tộc ở đó, những kẻ đã giúp người Gaul chống lại chúng ta. Hãy đưa các quân đoàn vượt eo biển sang Britain và buộc các bộ tộc phải cầu hòa. Chúng ta không muốn họ can thiệp vào Gaul thêm nữa.\n\nMục tiêu\n\n- Chiếm và giữ tất cả các trung tâm quyền lực của người Briton (Phế tích). Nếu Caesar chết, nhiệm vụ thất bại."
+      ],
+      "hints": [
+        "- Protect your siege weapons at all costs.\n- Do not waste time converting villagers; concentrate on the mission.",
+        "- Bảo vệ vũ khí công thành của bạn bằng mọi giá.\n- Đừng phí thời gian cải đạo dân làng; hãy tập trung vào nhiệm vụ."
+      ],
+      "win": [
+        "The Britons' admission that you have won secures the northern flank of Gaul. Although you did not conquer the island completely, the information on terrain and the local tribes will ease the full-fledged subjugation of the British Isles by Rome, if that proves necessary. For now, it is back to the mainland. There are rumblings that tribal leaders in Gaul are fomenting rebellion.",
+        "Việc người Briton thừa nhận bạn đã chiến thắng giúp bảo đảm sườn phía bắc của Gaul. Dù bạn chưa chinh phục hoàn toàn hòn đảo, những thông tin về địa hình và các bộ tộc địa phương sẽ giúp La Mã dễ dàng khuất phục quần đảo Anh nếu cần. Còn bây giờ, hãy quay về đất liền. Có tin đồn các thủ lĩnh bộ tộc ở Gaul đang kích động nổi loạn."
+      ],
+      "loss": [
+        "Your invasion performed a basic reconnaissance of Britain, but your army has suffered heavy casualties that cannot be replaced easily. Your failure has triggered a crisis. The tribes of Gaul have heard of your failures and are rising in rebellion. The northern frontiers of Rome may soon be in flames. Report to the Senate where certain leaders want to take a stab at explaining where you went wrong.",
+        "Cuộc xâm lược của bạn đã thám thính sơ bộ được Britain, nhưng quân đội chịu thương vong nặng nề, khó mà bù đắp. Thất bại của bạn đã gây ra khủng hoảng. Các bộ tộc ở Gaul nghe tin bạn thất bại và đang nổi dậy. Biên giới phía bắc của La Mã có thể sắp chìm trong biển lửa. Hãy đến Viện Nguyên lão, nơi một số người muốn \"đâm\" vào chỗ bạn đã sai."
+      ],
+      "history": [
+        "Caesar first entered Britain with two legions in 55 BC. He had to fight his way ashore with help from catapults mounted on his ships. After three weeks of hard fighting he agreed to a truce and returned to Gaul.\n\nThe following year he invaded Britain once more with five legions and support troops. A large force of Britons assembled to contest the invasion, but Caesar marched inland across the Thames River. The Britons avoided a major engagement but harassed the Romans and raided their camps. Another truce was arranged near modern St. Albans and Caesar returned to Gaul after receiving the Britons' nominal submission.\n\nBritain remained outside the Roman Empire until it was invaded again in 43 AD. Britain south of modern Scotland was conquered by 60 AD and remained part of the empire for 350 years.",
+        "Caesar lần đầu tiến vào Britain cùng hai quân đoàn năm 55 TCN. Ông phải đánh từng bước để lên bờ với sự yểm trợ của máy bắn đá đặt trên tàu. Sau ba tuần giao tranh ác liệt, ông đồng ý đình chiến và quay về Gaul.\n\nNăm sau, ông lại xâm lược Britain với năm quân đoàn và quân hỗ trợ. Một lực lượng lớn người Briton tập hợp để chống trả, nhưng Caesar vẫn tiến sâu vào nội địa, vượt sông Thames. Người Briton tránh giao chiến lớn mà quấy rối quân La Mã và đột kích doanh trại của họ. Một thỏa thuận đình chiến khác được ký gần St. Albans ngày nay, và Caesar quay về Gaul sau khi người Briton thần phục trên danh nghĩa.\n\nBritain nằm ngoài Đế chế La Mã cho đến khi bị xâm lược lần nữa vào năm 43 SCN. Phần Britain phía nam Scotland ngày nay bị chinh phục vào năm 60 SCN và là một phần của đế chế suốt 350 năm."
+      ]
+    },
+    {
+      "file": "Alesia.scx",
+      "name": [
+        "Alesia",
+        "Alesia"
+      ],
+      "description": [
+        "Alesia, 52 BC\n\nScenario Instructions\n\nGaul has risen in revolt. You have isolated the great Gallic leader Vercingetorix with only a portion of his forces and driven him into the hilltop fortress at Alesia. He is surrounded, but another great Gallic army is gathering outside your fortifications to free him. Kill the great Gallic leader while avoiding the destruction of your army by the forces inside and outside your fortifications.\n\nObjective\n\n- Kill the Gallic leader Vercingetorix. If Caesar dies, the mission will be lost.",
+        "Alesia, 52 TCN\n\nHướng dẫn màn chơi\n\nXứ Gaul đã nổi dậy. Bạn đã cô lập được thủ lĩnh vĩ đại của người Gaul là Vercingetorix cùng một phần lực lượng của ông và dồn ông vào pháo đài trên đỉnh đồi ở Alesia. Ông đã bị bao vây, nhưng một đạo quân Gaul lớn khác đang tập hợp bên ngoài công sự của bạn để giải cứu ông. Hãy giết thủ lĩnh vĩ đại của người Gaul, đồng thời tránh để quân ta bị tiêu diệt bởi lực lượng cả bên trong lẫn bên ngoài công sự.\n\nMục tiêu\n\n- Giết thủ lĩnh người Gaul Vercingetorix. Nếu Caesar chết, nhiệm vụ thất bại."
+      ],
+      "hints": [
+        "- Complete your fortress as quickly as possible.\n- Avoid a multi-front siege from the enemy at all costs.",
+        "- Hoàn thành pháo đài của bạn càng nhanh càng tốt.\n- Bằng mọi giá tránh bị kẻ thù vây đánh từ nhiều mặt."
+      ],
+      "win": [
+        "With the defeat of Vercingetorix and the Gauls, you have brought to a close almost nine years of constant fighting. Nearly 800 towns have been taken (in what later will become France and Switzerland). The very name \"Caesar\" will become synonymous with leadership. Such success is not without price, however. Jealous of your power and celebrity, and concerned about the size of your army, enemies are gathering in Rome. With all of Western Europe at your feet, it is time to return home.",
+        "Với việc đánh bại Vercingetorix và người Gaul, bạn đã khép lại gần chín năm chiến đấu liên miên. Gần 800 thị trấn đã bị chiếm (trên vùng đất sau này là Pháp và Thụy Sĩ). Chính cái tên \"Caesar\" sẽ trở thành đồng nghĩa với lãnh đạo. Tuy nhiên, thành công như vậy không phải không có cái giá. Ghen tị với quyền lực và danh tiếng của bạn, lo ngại về quy mô đạo quân của bạn, kẻ thù đang tụ tập ở La Mã. Với cả Tây Âu dưới chân, đã đến lúc trở về nhà."
+      ],
+      "loss": [
+        "Your failure to put down the revolt in Gaul means that these Celtic hordes will continue to raid southward. In addition, enemies are appearing within the walls of Rome. It is time to return home. Don't expect a pleasant reception, however, having left such a powerful force of barbarians leering down at Rome over the Alps. Report to the Tiber River for duty as a sandbag.",
+        "Việc bạn không dẹp được cuộc nổi dậy ở Gaul đồng nghĩa với việc lũ người Celt này sẽ tiếp tục cướp phá xuống phía nam. Thêm vào đó, kẻ thù đang xuất hiện ngay trong tường thành La Mã. Đã đến lúc trở về, nhưng đừng mong được đón tiếp nồng hậu khi bạn để lại một lực lượng man rợ hùng mạnh như vậy đang lăm le nhìn xuống La Mã từ bên kia dãy Alps. Hãy đến sông Tiber nhận nhiệm vụ làm bao cát."
+      ],
+      "history": [
+        "Nearly all of Gaul rose in revolt, beginning in 54 BC. The Gauls realized that they had been conquered by a force they outnumbered 20 to 1. In central Gaul, Vercingetorix, the ablest of the Gallic leaders, gathered a huge army. He conducted a skilled campaign and had Caesar retreating with his legions. During the retreat Caesar seized the initiative, as was his wont, and drove Vercingetorix into the hill fortress of Alesia. Building a double fortified enclosure to keep Vercingetorix in and the Gallic relief force out, Caesar fought a masterful battle. The Gallic leader surrendered to save his people from further disaster and was strangled eventually in Rome. The Gallic rebellion was quickly extinguished and Gaul went on to remain a key part of the Roman Empire for the next 500 years.",
+        "Gần như toàn bộ xứ Gaul nổi dậy, bắt đầu từ năm 54 TCN. Người Gaul nhận ra họ đã bị chinh phục bởi một lực lượng mà họ đông hơn 20 lần. Ở miền trung Gaul, Vercingetorix, người tài giỏi nhất trong các thủ lĩnh Gaul, tập hợp một đạo quân khổng lồ. Ông chỉ huy chiến dịch khéo léo và khiến Caesar cùng các quân đoàn phải rút lui. Trong lúc rút lui, Caesar giành lại thế chủ động như thường lệ và dồn Vercingetorix vào pháo đài trên đồi ở Alesia. Xây một vòng công sự kép để vừa nhốt Vercingetorix bên trong vừa chặn quân Gaul đến giải cứu bên ngoài, Caesar đã đánh một trận bậc thầy. Thủ lĩnh người Gaul đầu hàng để cứu dân mình khỏi thảm họa lớn hơn và cuối cùng bị thắt cổ ở La Mã. Cuộc nổi dậy của người Gaul nhanh chóng bị dập tắt, và Gaul tiếp tục là một phần quan trọng của Đế chế La Mã trong 500 năm sau đó."
+      ]
+    },
+    {
+      "file": "Caesar vs Pompey.scx",
+      "name": [
+        "Caesar vs Pompey",
+        "Caesar đấu Pompey"
+      ],
+      "description": [
+        "Caesar vs. Pompey, 48 BC\n\nScenario Instructions\n\nYou are locked in a struggle with Pompey, the very successful consul from the East, to be ruler of Rome. Pompey has fled to Greece where he has great support. Having solidified your control in Rome and neutralized other Pompeiian forces, you march to Greece to finish Pompey. The two armies meet near the small city of Pharsalus to decide who will become the true ruler of Rome.\n\nObjective\n\n- Destroy the forces of Pompey. If Caesar dies, the mission will be lost.",
+        "Caesar đấu Pompey, 48 TCN\n\nHướng dẫn màn chơi\n\nBạn đang giằng co với Pompey, vị chấp chính quan rất thành công từ phương Đông, để giành quyền cai trị La Mã. Pompey đã chạy sang Hy Lạp, nơi ông có nhiều người ủng hộ. Sau khi củng cố quyền kiểm soát ở La Mã và vô hiệu hóa các lực lượng khác của phe Pompey, bạn tiến quân sang Hy Lạp để kết liễu Pompey. Hai đạo quân gặp nhau gần thành phố nhỏ Pharsalus để quyết định ai sẽ là người thật sự cai trị La Mã.\n\nMục tiêu\n\n- Tiêu diệt lực lượng của Pompey. Nếu Caesar chết, nhiệm vụ thất bại."
+      ],
+      "hints": [
+        "- Because supplies are extremely limited at the initial base camp, exploration is key.\n- Avoid provoking the enemy as long as possible to give you more time to establish your defense.\n- Concentrate on Pompey; Pharsalus will submit once Pompey is destroyed.",
+        "- Vì tài nguyên ở doanh trại ban đầu rất hạn chế, việc thám hiểm là then chốt.\n- Tránh khiêu khích kẻ thù càng lâu càng tốt để có thêm thời gian xây dựng phòng thủ.\n- Tập trung vào Pompey; Pharsalus sẽ quy phục khi Pompey bị tiêu diệt."
+      ],
+      "win": [
+        "Your decisive victory over Pompey solidifies your position as ruler of Rome. The entire Senate is forced to confirm you. You are remembered as the greatest of the Romans. Future emperors of Rome, Russia, and Germany will be called Caesar, Tsar, and Kaiser after you.",
+        "Chiến thắng quyết định của bạn trước Pompey đã củng cố vị trí người cai trị La Mã của bạn. Toàn thể Viện Nguyên lão buộc phải công nhận bạn. Bạn được nhớ đến như người vĩ đại nhất trong số những người La Mã. Các hoàng đế tương lai của La Mã, Nga và Đức sẽ được gọi là Caesar, Sa hoàng (Tsar) và Kaiser theo tên bạn."
+      ],
+      "loss": [
+        "Your loss to Pompey elevates him officially to the post of dictator of Rome. You must flee and can only hope to find sanctuary in some forgotten corner of the world where you can live out your days dreaming of what might have been. Future emperors of Rome are called Pompey, not Caesar.",
+        "Thất bại của bạn trước Pompey đưa ông chính thức lên ngôi độc tài La Mã. Bạn phải trốn chạy và chỉ có thể mong tìm được chốn nương thân ở một góc khuất nào đó trên thế giới, sống nốt những ngày còn lại mơ về điều lẽ ra đã có thể xảy ra. Các hoàng đế tương lai của La Mã được gọi là Pompey chứ không phải Caesar."
+      ],
+      "history": [
+        "Following the death of Crassus, Pompey and Caesar were left as rivals for the control of Rome. Both had supporters in the army and Senate. It was understood that one man would become dictator and that the republic would cease to exist.\n\nPompey had himself illegally appointed as sole consul and attempted to strip Caesar of power. Caesar crossed the Rubicon River at the head of his troops in defiance of the Senate to contest this grab for power. Pompey fled to Greece with the part of the Senate that favored him. The remainder of the Senate made Caesar dictator, the virtual monarch of Rome. After consolidating control of Italy and dealing with the allies of Pompey leading rebellion in Iberia, Caesar followed Pompey to Greece to decide their fates.\n\nCaesar defeated Pompey at Pharsalus in Greece in 48 BC. The provinces in Greece and Asia previously allied with Pompey switched allegiance to Caesar. Egypt and Pontus submitted by 47 BC, North Africa by 46 BC, and Spain by 45 BC, all after military action. On March 15, 44 BC, Caesar was assassinated in the Senate by conspirators that included democrats alarmed by the end of the republic, former allies of Pompey, and disgruntled friends of Caesar himself.",
+        "Sau cái chết của Crassus, Pompey và Caesar trở thành hai đối thủ tranh quyền kiểm soát La Mã. Cả hai đều có người ủng hộ trong quân đội và Viện Nguyên lão. Ai cũng hiểu rằng một người sẽ trở thành nhà độc tài và nền cộng hòa sẽ chấm dứt.\n\nPompey tự cho mình được bổ nhiệm bất hợp pháp làm chấp chính quan duy nhất và tìm cách tước quyền của Caesar. Caesar dẫn quân vượt sông Rubicon, bất chấp Viện Nguyên lão, để chống lại việc đoạt quyền này. Pompey chạy sang Hy Lạp cùng phần Viện Nguyên lão ủng hộ mình. Phần còn lại của Viện Nguyên lão phong Caesar làm nhà độc tài, gần như là quân vương của La Mã. Sau khi củng cố quyền kiểm soát nước Ý và xử lý các đồng minh của Pompey đang lãnh đạo nổi loạn ở Iberia, Caesar đuổi theo Pompey sang Hy Lạp để định đoạt số phận của hai người.\n\nCaesar đánh bại Pompey tại Pharsalus ở Hy Lạp năm 48 TCN. Các tỉnh ở Hy Lạp và châu Á trước đây liên minh với Pompey chuyển sang trung thành với Caesar. Ai Cập và Pontus quy phục vào năm 47 TCN, Bắc Phi năm 46 TCN và Tây Ban Nha năm 45 TCN, tất cả đều sau các cuộc hành quân. Ngày 15 tháng 3 năm 44 TCN, Caesar bị ám sát tại Viện Nguyên lão bởi những kẻ âm mưu, trong đó có những người theo phe dân chủ lo sợ nền cộng hòa cáo chung, các đồng minh cũ của Pompey và cả những người bạn bất mãn của chính Caesar."
+      ]
+    }
+  ]
+}
