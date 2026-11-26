@@ -2,8 +2,11 @@
  * Bản dịch chiến dịch (lang/vi/campaigns/*.json).
  *
  * Hướng dẫn, gợi ý, lịch sử, thắng/thua của mỗi màn nằm trong file chiến dịch của game
- * (.CPN/.CPX), không có trong bảng chuỗi. Trang hiển thị chúng bằng HTML
- * (div.w1-aoe1brief, danh sách màn chơi...), nên ta dịch theo nguyên văn cả đoạn.
+ * (.CPN/.CPX), không có trong bảng chuỗi. Trang hiển thị chúng theo hai cách:
+ *   - Giao diện điện thoại: HTML (div.w1-aoe1brief, danh sách màn...) -> dịch text node.
+ *   - Giao diện máy tính: vẽ lên canvas -> chặn lúc game ngắt dòng và lúc vẽ chữ
+ *     (xem installCanvasHooks trong main.js).
+ * Cả hai đều so khớp theo nguyên văn cả đoạn.
  *
  * Dùng chung cho src/main.js (bản phát triển) và scripts/build.mjs.
  */
@@ -27,3 +30,17 @@ export function campaignPairs(campaign) {
   }
   return pairs;
 }
+
+/** Tên chiến dịch / màn chơi (câu ngắn, so khớp nguyên văn): [tiếng Anh, tiếng Việt]. */
+export function campaignNames(campaign) {
+  const pairs = [];
+  const add = (en, vi) => { if (en && vi && en !== vi) pairs.push([en, vi]); };
+  add(...(campaign.name || []));
+  for (const sc of campaign.scenarios || []) {
+    const [enName, viName] = sc.name || [];
+    add(enName, viName);
+    add(sc.file, viName);
+  }
+  return pairs;
+}
+

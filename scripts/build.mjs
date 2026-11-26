@@ -12,7 +12,7 @@
 import { build } from 'esbuild';
 import { readFile, mkdir, stat } from 'node:fs/promises';
 import { hashText } from '../src/hash.js';
-import { normalizeText, campaignPairs } from '../src/campaigns.js';
+import { normalizeText, campaignPairs, campaignNames } from '../src/campaigns.js';
 
 const LANG_DIR = new URL('../lang/vi/', import.meta.url);
 const OUT = 'dist/aoe-vi.min.js';
@@ -38,6 +38,7 @@ async function loadLang() {
   }
   // Chiến dịch: { hash(đoạn tiếng Anh) : tiếng Việt }
   const campaigns = {};
+  const names = {};
   let missing = 0;
   for (const file of index.campaigns || []) {
     let json;
@@ -47,8 +48,9 @@ async function loadLang() {
       if (formatSpecs(en) !== formatSpecs(vi)) problems.push(`${file}: lệch %s/%d trong "${vi.slice(0, 40)}..."`);
       campaigns[hashText(normalizeText(en))] = vi;
     }
+    for (const [en, vi] of campaignNames(json)) names[en] = vi;
   }
-  return { data: { s: data, c: campaigns }, problems, files: index.files.length, missing };
+  return { data: { s: data, c: campaigns, n: names }, problems, files: index.files.length, missing };
 }
 
 const { data, problems, files, missing } = await loadLang();

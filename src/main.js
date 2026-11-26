@@ -18,7 +18,7 @@
 /* global __AOE_VI_DATA__ */
 
 import { hashText } from './hash.js';
-import { normalizeText, campaignPairs } from './campaigns.js';
+import { normalizeText, campaignPairs, campaignNames } from './campaigns.js';
 
 // ---------------------------------------------------------------------------
 // Cấu hình
@@ -64,6 +64,7 @@ const tables = [];             // [{ tbl, orig, vi }] – bảng gốc, bản sa
 const patched = new WeakSet(); // bảng chuỗi đã xử lý
 const domMap = new Map();      // tiếng Anh -> tiếng Việt, dùng cho chữ HTML
 const textMap = new Map();     // hash(đoạn tiếng Anh đã chuẩn hóa) -> tiếng Việt (chiến dịch)
+const nameMap = new Map();     // tên chiến dịch / màn chơi: tiếng Anh -> tiếng Việt (vẽ trên canvas)
 const domOrig = new WeakMap(); // text node -> chữ tiếng Anh gốc
 
 // ---------------------------------------------------------------------------
@@ -73,7 +74,8 @@ const domOrig = new WeakMap(); // text node -> chữ tiếng Anh gốc
 //      và index.campaigns liệt kê file chiến dịch trong lang/vi/campaigns/
 //    Bản build: __AOE_VI_DATA__ = {
 //      s: { "<ID>": ["<hash câu tiếng Anh>", "Tiếng Việt"] },   // bảng chuỗi
-//      c: { "<hash đoạn tiếng Anh>": "Tiếng Việt" }             // chiến dịch
+//      c: { "<hash đoạn tiếng Anh>": "Tiếng Việt" },            // chiến dịch
+//      n: { "Tên tiếng Anh": "Tên tiếng Việt" }                  // tên chiến dịch / màn
 //    } (lưu hash thay cho chữ tiếng Anh để file nhỏ hơn mà vẫn so khớp được)
 // ---------------------------------------------------------------------------
 
@@ -91,6 +93,7 @@ const fetchJson = (file) =>
 async function loadTranslations() {
   if (BUNDLED) {
     for (const [h, vi] of Object.entries(BUNDLED.c || {})) textMap.set(h, vi);
+    for (const [en, vi] of Object.entries(BUNDLED.n || {})) nameMap.set(en, vi);
     return BUNDLED.s;
   }
   const index = await fetchJson('index.json');
@@ -101,6 +104,7 @@ async function loadTranslations() {
   for (const c of campaigns) {
     if (!c) continue;
     for (const [en, vi] of campaignPairs(c)) textMap.set(hashText(normalizeText(en)), vi);
+    for (const [en, vi] of campaignNames(c)) nameMap.set(en, vi);
   }
   return Object.assign({}, ...parts.filter(Boolean));
 }
@@ -250,7 +254,47 @@ function startDomObserver() {
 }
 
 // ---------------------------------------------------------------------------
-// 5. Tìm module bảng chuỗi của trang
+// 5. Chữ vẽ trên canvas (giao diện máy tính của chiến dịch)
+//    - Khung hướng dẫn/gợi ý: hàm ngắt dòng của game luôn gọi
+//      text.replace(/\r\n?/g, '\n') trên cả đoạn trước khi tách dòng. Ta chặn đúng lời gọi
+//      này: nếu cả đoạn có bản dịch thì ngắt dòng bản tiếng Việt thay cho tiếng Anh.
+//    - Tên chiến dịch / màn chơi: thay ngay lúc đo và vẽ chữ (measureText / fillText).
+// ---------------------------------------------------------------------------
+
+let canvasHooked = false;
+function installCanvasHooks() {
+  if (canvasHooked) return;
+  canvasHooked = true;
+
+  const origReplace = String.prototype.replace;
+  let busy = false; // normalizeText cũng gọi replace -> tránh đệ quy
+  String.prototype.replace = function (pattern, replacement) {
+    if (enabled && !busy && textMap.size && pattern instanceof RegExp &&
+        pattern.source === '\\r\\n?' && this.length > 20) {
+      busy = true;
+      try {
+        const vi = textMap.get(hashText(normalizeText(String(this))));
+        if (vi !== undefined) return origReplace.call(vi, pattern, replacement);
+      } finally {
+        busy = false;
+      }
+    }
+    return origReplace.call(this, pattern, replacement);
+  };
+
+  const swap = (text) => (enabled && typeof text === 'string' && nameMap.get(text)) || text;
+  const protos = [globalThis.CanvasRenderingContext2D, globalThis.OffscreenCanvasRenderingContext2D]
+    .filter(Boolean).map((c) => c.prototype);
+  for (const proto of protos) {
+    for (const fn of ['fillText', 'strokeText', 'measureText']) {
+      const orig = proto[fn];
+      proto[fn] = function (text, ...rest) { return orig.call(this, swap(text), ...rest); };
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// 6. Tìm module bảng chuỗi của trang
 // ---------------------------------------------------------------------------
 
 const isStringsUrl = (url) => /\/assets\/strings-[\w-]+\.js(\?|$)/.test(url);
@@ -304,6 +348,7 @@ if (window.__aoeVI) {
 
   const start = async () => {
     const translations = await loadTranslations();
+    installCanvasHooks();
     log(`Đã tải ${Object.keys(translations).length} câu và ${textMap.size} đoạn chiến dịch.`);
     findStringModules((lang) => applyToTable(lang, translations));
   };
