@@ -1,0 +1,12 @@
+{
+  "files": [
+    "system.json",
+    "messages.json",
+    "interface.json",
+    "objects.json",
+    "actions.json",
+    "technologies.json",
+    "menus.json",
+    "tooltips.json"
+  ]
+}
