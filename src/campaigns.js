@@ -11,9 +11,14 @@
  * Dùng chung cho src/main.js (bản phát triển) và scripts/build.mjs.
  */
 
+// Giữ bản gốc của String.prototype.replace: main.js sẽ chặn replace(/\r\n?/g) để dịch chữ
+// vẽ trên canvas, nên normalizeText không được đi qua lớp chặn đó (nếu không sẽ nhận
+// về bản tiếng Việt thay vì chữ gốc và tra bản dịch sai).
+const nativeReplace = String.prototype.replace;
+
 /** Chuẩn hóa để so khớp: xuống dòng kiểu Windows, khoảng trắng cuối dòng, đầu/cuối đoạn. */
 export const normalizeText = (s) =>
-  s.replace(/\r\n?/g, '\n').replace(/[ \t]+\n/g, '\n').trim();
+  nativeReplace.call(nativeReplace.call(s, /\r\n?/g, '\n'), /[ \t]+\n/g, '\n').trim();
 
 export const CAMPAIGN_FIELDS = ['description', 'hints', 'win', 'loss', 'history'];
 

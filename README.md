@@ -160,6 +160,22 @@ Bảng chuỗi gốc của game: mở vivalarts, vào Age of Empires, F12 → Co
 
 Nếu bản dịch có lỗi (sai định dạng, lệch `%s`/`%d`, trùng ID), bước build sẽ đỏ và bản cũ vẫn được giữ nguyên.
 
+### Kiểm thử
+
+```
+npx playwright install chromium   # lần đầu, tải trình duyệt dùng cho kiểm thử
+npm test                          # build + unit test + kiểm thử end-to-end
+```
+
+- `tests/unit/`: hàm dùng chung (hash, chuẩn hóa chữ) và **dữ liệu bản dịch**: đúng dạng,
+  giữ `%s`/`%d`, giữ phím tắt `(W)`, không trùng ID, `index.json` khớp thư mục,
+  thuật ngữ thống nhất (Discovery → Thánh địa, Artifact → Cổ vật, ...).
+- `tests/e2e/`: mở một trang giả lập vivalarts (`tests/e2e/mock-site.mjs`) trong Chromium,
+  chạy dấu trang với cả `src/main.js` và `dist/aoe-vi.min.js`, kiểm tra: bảng chuỗi,
+  nút HTML (điện thoại), chiến dịch HTML (điện thoại) và canvas (máy tính), bật/tắt.
+
+Workflow GitHub Actions chạy `npm test` trước khi deploy: test đỏ thì bản cũ được giữ nguyên.
+
 ### Build ở máy (để thử)
 
 Cần Node.js 18 trở lên.
